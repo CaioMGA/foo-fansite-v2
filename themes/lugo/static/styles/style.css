@@ -1,0 +1,827 @@
+@font-face {
+    font-family: 'Anton-Regular';
+    src: url('/fonts/Anton-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Antonio';
+    src: url('/fonts/Antonio-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Dosis-Medium';
+    src: url('/fonts/Dosis-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Dekko-Regular';
+    src: url('/fonts/Dekko-Regular.ttf') format('truetype');
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Dosis-Medium';
+}
+
+body {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    width:100vw;
+    background-color: blanchedalmond;
+    animation-duration: 1s;
+
+    /* Background */
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+    backdrop-filter: blur(0.3rem);
+}
+
+.main-content{
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* #region 2018 */
+.cover-2018{
+    background: url("/imgs/2018/album-cover.jpeg");
+    aspect-ratio: 1;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.cover-2018-small{
+    background: url("/imgs/2018/album-cover.jpeg");
+}
+.mo-2018{
+    background: url("/imgs/2018/making-of.png");
+}
+.sp-2018{
+    background: url("/imgs/2018/special.png");
+}
+
+/* #endregion */
+/* #region 2019 */
+.cover-2019{
+    background: url("/imgs/2019/album-cover.jpeg");
+    aspect-ratio: 1;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.cover-2019-small{
+    background: url("/imgs/2019/album-cover.jpeg");
+}
+.mo-2019{
+    background: url("/imgs/2019/making-of.png");
+}
+.sp-2019{
+    background: url("/imgs/2019/special.png");
+}
+/* #endregion */
+/* #region 2021 */
+.cover-2021{
+    background: url("/imgs/2021/album-cover.jpeg");
+    aspect-ratio: 1;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.cover-2021-small{
+    background: url("/imgs/2021/album-cover.jpeg");
+}
+.mo-2021{
+    background: url("/imgs/2021/making-of.png");
+}
+.sp-2021{
+    background: url("/imgs/2021/special.png");
+}
+/* #endregion */
+/* #region 2022 */
+.cover-2022{
+    background: url("/imgs/2022/album-cover.jpeg");
+    aspect-ratio: 1;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.cover-2022-small{
+    background: url("/imgs/2022/album-cover.jpeg");
+}
+.mo-2022{
+    background: url("/imgs/2022/making-of.png");
+}
+.sp-2022{
+    background: url("/imgs/2022/special.png");
+}
+/* #endregion */
+/* #region 2023 */
+.cover-2023{
+    background: url("/imgs/2023/album-cover.jpeg");
+    aspect-ratio: 1;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.cover-2023-small{
+    background: url("/imgs/2023/album-cover.jpeg");
+}
+.mo-2023{
+    background: url("/imgs/2023/making-of.png");
+}
+.sp-2023{
+    background: url("/imgs/2023/special.png");
+}
+/* #endregion */
+/* #region 2024 */
+.cover-2024{
+    background: url("/imgs/2024/album-cover.jpeg");
+    aspect-ratio: 1;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.cover-2024-small{
+    background: url("/imgs/2024/album-cover.jpeg");
+}
+.mo-2024{
+    background: url("/imgs/2024/making-of.png");
+}
+.sp-2024{
+    background: url("/imgs/2024/special.png");
+}
+/* #endregion */
+/* #region 2025 */
+.cover-2025{
+    background: url("/imgs/2025/album-cover.jpeg");
+    aspect-ratio: 1;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.cover-2025-small{
+    background: url("/imgs/2025/album-cover.jpeg");
+}
+.mo-2025{
+    background: url("/imgs/2025/making-of.png");
+}
+.sp-2025{
+    background: url("/imgs/2025/special.png");
+}
+/* #endregion */
+
+/* #region Playlist Funny */
+.cover-funny{
+    background: url("/imgs/msc/playlist-cover-funny.jpeg");
+    aspect-ratio: 1;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.cover-funny-small{
+    background: url("/imgs/msc/playlist-cover-funny.jpeg");
+}
+.mo-funny{
+    background: url("/imgs/msc/playlist-cover-funny.png");
+}
+.sp-funny{
+    background: url("/imgs/msc/playlist-cover-funny");
+}
+
+/* #endregion */
+
+/* #region Playlist Editor Pickk */
+.cover-editors-picks{
+    background: url("/imgs/msc/playlist-cover-editors-picks.jpeg");
+    aspect-ratio: 1;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.cover-editors-picks-small{
+    background: url("/imgs/msc/playlist-cover-editors-picks.jpeg");
+}
+.mo-editors-picks{
+    background: url("/imgs/msc/playlist-cover-editors-picks.png");
+}
+.sp-editors-picks{
+    background: url("/imgs/msc/playlist-cover-editors-picks");
+}
+
+/* #endregion */
+
+.page-title{
+    margin: 0 5vw 3vh 5vw;
+    color: white;
+    background-color: #080000;
+    padding: 0 0.5em;
+    font-family: 'Anton-Regular';
+    font-weight: 400;
+    text-align: center;
+    display: inline;
+    overflow: visible;
+    text-wrap: nowrap;
+}
+
+.page-title-outside-main-content{
+    display: none;
+    visibility: hidden;
+    position: absolute;
+    font-size: 4em;
+    top:1em;
+}
+
+.page-title-inside-main-content{
+    display: block;
+    visibility: visible;
+    font-size: 4em;
+    
+}
+
+
+
+#player {
+    
+}
+
+.player-small {
+    height: 30vh;
+    width: 30vw;
+    transition: 1s;
+    border-radius: 20px;
+    margin-bottom: 2.5px;
+
+    font-family: 'Anton-Regular';
+    font-size: larger;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+    font-weight: 400;
+    font-family: 'Antonio-Regular';
+}
+
+.main-buttons-container{
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 50dvw;
+    backdrop-filter: blur(4px);
+    padding-top: 10vh;
+}
+
+.main-button{
+    text-decoration: none;
+    color: white;
+    background-size: auto 100%;
+    background-repeat: repeat;
+    background-position: 50% 0;
+    max-width: 400px;
+    width: 50%;
+    height: 25vh;
+    border-radius: 20px;
+}
+
+.small-buttons-div{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    width: 50%;
+}
+
+.small-buttons-div-left {
+    align-items: end;
+}
+.small-buttons-div-right {
+    align-items: start;
+}
+
+#spacer-extra-button{
+    visibility: hidden;
+}
+
+
+.main-button:hover {
+    animation: panAnimation 8s ease infinite;
+    animation-delay: 0s;
+    scale: 1.02;
+}
+
+
+@keyframes panAnimation{
+    0%{
+        background-position: left;
+    }
+
+    50%{
+        background-position: right;
+    }
+
+    100%{
+        background-position: left;
+    }
+}
+
+button{
+    overflow: hidden;
+}
+
+#music-player-button-inner{
+    display: flex;
+    flex-direction: column;
+    justify-items: end;
+    overflow: hidden;
+
+}
+
+.main-button-inner-text{
+    width: 100%;
+    height: 92%;
+    padding-bottom: 12%;
+    text-indent: -1.5rem;
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.9) 0%,
+        rgba(0, 0, 0, 1) 25%,
+        rgba(0, 0, 0, 0) 100%
+        );
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: x-large;
+}
+
+.extra-button-small-inner-text{
+    width: 100%;
+    /* height: 4vh; */
+    /* padding-bottom: 5%; */
+    background-image: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.9) 0%,
+        rgba(0, 0, 0, 1) 25%,
+        rgba(0, 0, 0, 0) 100%
+        );
+    background-size: 100% 50%;
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: large;
+    padding-left: 1.2rem;
+}
+
+.new-label{
+    color:yellow;
+    font-weight: 100;
+    font-size: 0.9rem;
+    padding: 0 0.3rem 0.7rem 0.3rem;
+}
+
+#button-special{
+    border-bottom-left-radius: 0;
+}
+#button-making-of{
+    border-bottom-right-radius: 0;
+}
+#music-player-button{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    width: 25vh;
+    height: 25vh;
+    /* margin-left: calc(20vw - 25vh); */
+}
+
+#about-button{
+    /* border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    width: 25vh;
+    margin-right: calc(20vw - 25vh);
+    background-color: #080000; */
+}
+
+.extra-button{
+    width: 20vh;
+    height: auto;;
+    /* padding-top: 10px; */
+
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    background-size: auto 100%;
+    background-repeat: repeat;
+    background-position: 50% 0;
+    border-radius: 20px;
+}
+
+.extra-button-small{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    height: 6.25vh;
+}
+
+.extra-button-bottom{
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.extra-button-merch{
+    border-top-right-radius: 0;
+}
+
+.extra-button-contact{
+    border-top-left-radius: 0;
+}
+
+.player-fullscreen {
+    height: 100vh;
+    width: 100vw;
+    transition: 1.5s;
+    border-radius: 0px;
+    position: absolute;
+}
+
+.hidden {
+    display: none;
+    visibility: hidden;
+}
+
+.container__years{
+    display: flex;
+    position: absolute;
+    left:-74px;
+    /* width: 100%; */
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    top: calc(25vh);
+    z-index: 1000;
+    /* pointer-events: none; */
+    
+}
+
+.panel-button {
+    padding: 10px;
+    margin-bottom: 6px;
+    margin-left: 2px;
+    margin-right: 2px;
+    /* background-color: #cccccc; */
+    background-color: #000;
+    color: #cccccc;
+    font-family: 'Antonio';
+    border-radius: 8px 0 0 8px;
+}
+
+.panel-button:hover{
+    scale: 1.1;
+}
+
+.button-selected-year{
+    font-size: x-large;
+    pointer-events: none;
+    cursor: pointer;
+
+    background-color: #222;
+    color: #cccccc;
+}
+
+h1 h2 h3{
+    color: white;
+    text-align: center;
+}
+
+.footer__regular{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-family: 'Dosis-Medium';
+    background-color: #e6e6e6;
+}
+
+.footer__regular>a{
+    color: black;
+}
+
+.footer__dark{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-family: 'Dosis-Medium';
+    background-color: transparent;
+    color: white;
+}
+
+.footer__dark>a{
+    color: white;
+}
+
+.footer__right{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.footer__fixed{
+    position: absolute;
+    bottom:0;
+}
+
+footer>a{
+    font-size: small;
+    font-style: normal;
+    font-family: 'Antonio';
+    font-weight: 400;
+    text-decoration: underline;
+    margin-left: 0.5rem;
+}
+
+footer>a:hover {
+    text-decoration: underline;
+}
+
+.club {
+    color: red;
+    font-family: 'Dekko-Regular';
+    font-size: small;
+    margin-right: 0.3em;
+}
+
+#music-player-button-inner{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #cccccc;
+    aspect-ratio: 1;
+    width: auto;
+}
+
+.decoration-video{
+    width: 50%;
+    visibility: visible;
+}
+
+.fullscreen-menu{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right:0;
+    top:0;
+    z-index: 2000;
+}
+
+.fullscreen-menu-content{
+    display: flex;
+    justify-content:center ;
+    padding-left: 1vw;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.fullscreen-menu__button{
+    height:40px;
+    width:120px;
+    margin: 5px 10px 0 0;
+}
+.extra-container{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1) );
+    backdrop-filter: blur(4px);
+    z-index: 2900;
+
+}
+
+.extra-container-panel{
+    position: absolute;
+    width: 600px;
+    max-height: 80vh;
+    background-color: #080000;
+    color: white;
+    padding:40px 80px;
+    border-radius: 20px;
+    z-index: 3000;
+}
+.extra-container-panel {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.about-content-title{
+    margin-bottom: 10px;
+    font-size: 3rem;
+}
+
+.about-content-subtitle{
+    margin-top:30px;
+    margin-bottom:10px;
+    font-size: 2rem;
+}
+
+.about-content-text{
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.close-button{
+    position: absolute;
+    top:1em;
+    right:1em;
+    margin-bottom: auto;
+    margin-left: auto;
+    width:3em;
+    height: 3em;
+    border-radius: 50%;
+    font-weight: 700;
+}
+
+/* .extra-button{
+    padding-top: 20px;
+} */
+
+.strong{
+    font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+
+    .footer__regular{
+        margin-top: 40px;
+        margin-bottom: 20px;
+        padding: 10px 20px;
+        font-family: 'Dosis-Medium';
+        background-color: #e6e6e6;
+    }
+
+    .footer__regular>a{
+        color: black;
+    }
+
+    .footer__dark{
+        margin-top: 40px;
+        margin-bottom: 20px;
+        padding: 10px 20px;
+        font-family: 'Dosis-Medium';
+        background-color: #080000;
+        color: white;
+    }
+
+    .footer__dark>a{
+        color: white;
+    }
+
+    .footer__right{
+        display: block;
+        position: absolute;
+        margin:0;
+        padding: 0;
+        bottom:0;
+        width: 100%;
+        background-color: #020000;
+    }
+
+    footer>a{
+        font-size: small;
+        font-style: normal;
+        font-family: 'Antonio';
+        font-weight: 400;
+        text-decoration: none;
+    }
+
+    footer>a:hover {
+        text-decoration: underline;
+    }
+
+    .club {
+        color: red;
+        font-family: 'Dekko-Regular';
+        font-size: small;
+        margin-right: 0.3em;
+    }
+
+    .player-small{
+        width: 70vw;
+    }
+
+    .container__years{
+        display: flex;
+        position: relative;
+        left:0;
+        top: 6.5em;
+        flex-direction: row-reverse;
+        align-items: end;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .panel-button {
+        border-radius: 8px 8px 0 0;
+    }
+
+    .main-content{
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+    body{
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    .main-button, #button-making-of, #button-special{
+        width:45vw;
+        height:45vw;
+        padding: 0;
+        margin: 0;
+    }
+
+    #music-player-button{
+        padding: 0;
+        margin: 0;
+        max-width: 45vw;
+    }
+
+    .extra-button, .extra-button-contact, .extra-button-merch, #extra-button-contact, #extra-button-merch, #extra-button-zine{
+        width:40vw;
+        height:6.25vh;
+        padding: 0;
+        margin: 0;
+    }
+
+    .main-buttons-container{
+        top:11em;
+        padding: 0;
+        width:100%;
+        height: fit-content;
+        flex-direction: row;
+    }
+
+    .main-button-inner-text{
+        font-size: medium;
+    }
+
+    .page-title-outside-main-content{
+        display: block;
+        visibility: visible;
+        font-size: 2.1em;
+        top: 0.75em;
+        margin:0;
+        height: 2em;
+    }
+
+    .page-title-inside-main-content{
+        display: none;
+        visibility: hidden;
+    }
+
+    .extra-container{
+        width: 100%;
+    }
+
+    .extra-container-panel{
+        width:auto;
+        height: fit-content;
+        padding: 20px;
+        margin: 20px;
+    }
+
+    .extra-container-panel-content{
+        width:100%;
+        height: 80%;
+        max-height: 80%;
+        overflow-y: auto;
+    }
+
+    .about-content-text{
+        color: white;
+        font-size: large;
+    }
+}
