@@ -22,6 +22,39 @@
 </head>
 
 <body>
+  <main>
+        <h1 class="page-title page-title-inside-main-content">First of October</h1>
+        <div class="year_selector_container">
+    <button class="panel-button btn-2025" id="btn-2025" onclick="SelectAlbum('2025');">2025</button>
+    <button class="panel-button btn-2024" id="btn-2024" onclick="SelectAlbum('2024');">2024</button>
+    <button class="panel-button btn-2023" id="btn-2023" onclick="SelectAlbum('2023');">2023</button>
+    <button class="panel-button btn-2022" id="btn-2022" onclick="SelectAlbum('2022');">2022</button>
+    <button class="panel-button btn-2021" id="btn-2021" onclick="SelectAlbum('2021');">2021</button>
+    <button class="panel-button btn-2019" id="btn-2019" onclick="SelectAlbum('2019');">2019</button>
+    <button class="panel-button btn-2018" id="btn-2018" onclick="SelectAlbum('2018');">2018</button>
+  </div>
+        <div class="grid">
+            <button id="button-making-of" class="main-btn main-button" onclick="ShowMakingOf();">
+              <p class="main-button-inner-text">🎥 Making of</p>
+            </button>
+
+            <button id="button-special" class="main-btn main-button" onclick="ShowSpecial();">
+              <p class="main-button-inner-text">🌟 Special</p>
+            </button>
+            <button id="music-player-button" class="main-button secondary-btn" onclick="ShowMusicPlayer();"><p class="main-button-inner-text">▶️ Music Player</p></button>
+
+            <button id="extra-button-merch" class="main-button tertiary-btn extra-button extra-button-small" onclick="OpenMerchLink();"><p class="extra-button-small-inner-text">💽 Merch</p></button>
+            <button id="extra-button-zine" class="main-button tertiary-btn extra-button extra-button-small"
+              onclick="ShowZinesPage();"><p class="extra-button-small-inner-text">📰 Zine</p></button>
+            <button id="extra-button-contact" class="main-button tertiary-btn extra-button extra-button-small"
+              onclick="ShowContactPanel();"><p class="extra-button-small-inner-text">✉️ Contact</p></button>
+            <button id="about-button" class="main-button tertiary-btn extra-button extra-button-small" onclick="ShowAboutPanel();"><p class="extra-button-small-inner-text">❔ About</p></button>
+            <button id="lyrics-button" class="main-button tertiary-btn extra-button extra-button-small" onclick="GoToLyricsPage();"><p class="extra-button-small-inner-text">🎶 Lyrics <span class="new-label">new</span></p></button>
+      </div>
+        </div>
+        <footer class="footer_home footer__regular">Foo Fansite by <a href="http://caiomga.com" target="_blank">Caio
+        Amaral</a></footer>
+    </main>
   <div id="fullscreen-menu" class="fullscreen-menu hidden">
     <div class="fullscreen-menu-content">
       <button class="fullscreen-menu__button" onclick="ToggleFullscreenMenu();">Toggle Menu</button>
@@ -34,58 +67,7 @@
   </div>
   <div id="player" class="hidden player-small"></div>
   
-  <div class="main-content">
-    <h1 class="page-title page-title-outside-main-content">First of October</h1>
-    <div class="main-buttons-container">
-      <div class="container__years">
-    <button class="panel-button btn-2025" id="btn-2025" onclick="SelectAlbum('2025');">2025</button>
-    <button class="panel-button btn-2024" id="btn-2024" onclick="SelectAlbum('2024');">2024</button>
-    <button class="panel-button btn-2023" id="btn-2023" onclick="SelectAlbum('2023');">2023</button>
-    <button class="panel-button btn-2022" id="btn-2022" onclick="SelectAlbum('2022');">2022</button>
-    <button class="panel-button btn-2021" id="btn-2021" onclick="SelectAlbum('2021');">2021</button>
-    <button class="panel-button btn-2019" id="btn-2019" onclick="SelectAlbum('2019');">2019</button>
-    <button class="panel-button btn-2018" id="btn-2018" onclick="SelectAlbum('2018');">2018</button>
-  </div>
-      <h1 class="page-title page-title-inside-main-content">First of October</h1>
-      <button id="button-making-of" class="main-button" onclick="ShowMakingOf();">
-        <p class="main-button-inner-text">🎥 Making of</p>
-      </button>
-
-      <button id="button-special" class="main-button" onclick="ShowSpecial();">
-        <p class="main-button-inner-text">🌟 Special</p>
-      </button>
-      <div class="small-buttons-div small-buttons-div-left">
-
-        <button id="music-player-button" class="main-button" onclick="ShowMusicPlayer();">
-          <p class="main-button-inner-text">▶️ Music Player</p>
-        </button>
-      </div>
-      <div class="small-buttons-div small-buttons-div-right fit-children">
-
-        <button id="extra-button-merch" class="main-button extra-button extra-button-small" onclick="OpenMerchLink();">
-          <p class="extra-button-small-inner-text">💽 Merch</p>
-        </button>
-        <button id="extra-button-zine" class="main-button extra-button extra-button-small"
-          onclick="ShowZinesPage();">
-          <p class="extra-button-small-inner-text">📰 Zine</p>
-        </button>
-
-        <button id="extra-button-contact" class="main-button extra-button extra-button-small"
-          onclick="ShowContactPanel();">
-          <p class="extra-button-small-inner-text">✉️ Contact</p>
-        </button>
-        <button id="about-button" class="main-button extra-button extra-button-small" onclick="ShowAboutPanel();">
-          <p class="extra-button-small-inner-text">❔ About</p>
-        </button>
-        <button id="lyrics-button" class="main-button extra-button extra-button-small" onclick="GoToLyricsPage();">
-          <p class="extra-button-small-inner-text">🎶 Lyrics <span class="new-label">new</span></p>
-        </button>
-      </div>
-
-    </div>
-    <footer class="footer__regular footer__fixed">Foo Fansite by <a href="http://caiomga.com" target="_blank">Caio
-        Amaral</a></footer>
-  </div>
+  
   <div id="about-container" class="extra-container hidden">
     <div class="extra-container-panel">
       <div class="extra-container-panel-content" onclick="HideAboutPanel();">

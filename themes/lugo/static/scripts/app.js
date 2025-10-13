@@ -169,7 +169,7 @@ function UpdateYearButtons(year) {
 
 function ShowPlayerOnly() {
     isPlaying = true;
-    document.getElementsByClassName("container__years")[0].classList.add("hidden");
+    document.getElementsByClassName("year_selector_container")[0].classList.add("hidden");
 
     document.getElementsByClassName("main-buttons-container")[0].classList.add("hidden");
 
@@ -186,7 +186,7 @@ function ShowPlayerOnly() {
 
 function ShowMinimizedVideoLayout() {
     isPlaying = false;
-    document.getElementsByClassName("container__years")[0].classList.remove("hidden");
+    document.getElementsByClassName("year_selector_container")[0].classList.remove("hidden");
 
     document.getElementsByClassName("main-buttons-container")[0].classList.remove("hidden");
 
@@ -212,7 +212,7 @@ function ToggleFullscreenMenu() {
 }
 
 function IsFullscreen() {
-    var pl = document.getElementsByClassName("container__years")[0];
+    var pl = document.getElementsByClassName("year_selector_container")[0];
     return pl.classList.contains("hidden");
 }
 

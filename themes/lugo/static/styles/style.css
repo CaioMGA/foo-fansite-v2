@@ -23,6 +23,13 @@
     padding: 0px;
     font-family: 'Dosis-Medium';
 }
+html {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: baseline;
+    height: 100dvh;
+}
 
 body {
     display: flex;
@@ -30,16 +37,36 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height:100vh;
-    width:100vw;
+    height:auto;
+    width:100%;
     background-color: blanchedalmond;
     animation-duration: 1s;
+    overflow-x: hidden;
 
     /* Background */
     background-attachment: fixed;
     background-position: center;
     background-size: 100%;
-    backdrop-filter: blur(0.3rem);
+    /* backdrop-filter: blur(0.3rem); */
+    /* box-sizing: content-box; */
+
+    padding: 1rem;
+}
+
+body.body-music-player{
+    height:100dvh;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  backdrop-filter: blur(0.3rem);
+  z-index: -1;
 }
 
 .main-content{
@@ -48,6 +75,41 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100dvw;
+}
+.grid {
+    display: grid;
+    grid-template-rows: repeat(9, 1fr);
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 0;
+    width: 90dvw;
+    max-width: 900px;
+    max-height: 500px;
+    height: 100dvh;
+    min-height: 400px;
+    box-sizing: border-box;
+}
+.main-btn{
+    grid-column: span 4;
+    grid-row: span 4;
+}
+.secondary-btn{
+    grid-column: 2 / span 3;
+    grid-row: span 3;
+    background-color: yellow;
+}
+
+.tertiary-btn{
+    grid-column: 5 / span 3;
+    grid-row: span 1;
+    background-color: pink;
 }
 
 /* #region 2018 */
@@ -289,9 +351,9 @@ body {
     background-size: auto 100%;
     background-repeat: repeat;
     background-position: 50% 0;
-    max-width: 400px;
-    width: 50%;
-    height: 25vh;
+    /* max-width: 400px; */
+    /* width: 50%; */
+    /* height: 25vh; */
     border-radius: 20px;
 }
 
@@ -344,7 +406,8 @@ button{
 #music-player-button-inner{
     display: flex;
     flex-direction: column;
-    justify-items: end;
+    justify-items: center;
+    align-items: center;
     overflow: hidden;
 
 }
@@ -401,17 +464,26 @@ button{
 }
 
 #button-special{
-    border-bottom-left-radius: 0;
+    border-radius: 0 20px 20px 0;
 }
 #button-making-of{
-    border-bottom-right-radius: 0;
+    border-radius: 20px 0 0 20px;
 }
 #music-player-button{
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
-    width: 25vh;
-    height: 25vh;
+    /* width: 25vh;
+    height: 25vh; */
     /* margin-left: calc(20vw - 25vh); */
+    text-decoration: none;
+    color: white;
+    background-size: 100%;
+    background-repeat: repeat;
+    background-position: 50% 50%;
+    /* max-width: 400px; */
+    /* width: 50%; */
+    /* height: 25vh; */
+    border-radius: 20px 0 0 20px;
 }
 
 #about-button{
@@ -423,8 +495,10 @@ button{
 }
 
 .extra-button{
-    width: 20vh;
-    height: auto;;
+    /* width: 20vh; */
+    width: auto;
+    max-width: 10rem;
+    height: auto;
     /* padding-top: 10px; */
 
     text-decoration: none;
@@ -439,7 +513,7 @@ button{
 .extra-button-small{
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
-    height: 6.25vh;
+    /* height: 6.25vh; */
 }
 
 .extra-button-bottom{
@@ -480,29 +554,41 @@ button{
     /* pointer-events: none; */
     
 }
+.year_selector_container{
+    /* position: absolute; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: end;
+
+}
 
 .panel-button {
     padding: 10px;
-    margin-bottom: 6px;
+    /* margin-bottom: 6px; */
     margin-left: 2px;
     margin-right: 2px;
     /* background-color: #cccccc; */
     background-color: #000;
     color: #cccccc;
     font-family: 'Antonio';
-    border-radius: 8px 0 0 8px;
+    font-size: 0.7rem;
+    /* border-radius: 8px 0 0 8px; */
+    border-radius: 8px 8px 0 0;
+    height: fit-content;
 }
 
 .panel-button:hover{
     scale: 1.1;
+    transform: translateY(-0.1rem);
 }
 
 .button-selected-year{
-    font-size: x-large;
+    font-size: large;
     pointer-events: none;
     cursor: pointer;
 
-    background-color: #222;
+    background-color: #313131;
     color: #cccccc;
 }
 
@@ -560,6 +646,10 @@ footer>a:hover {
     text-decoration: underline;
 }
 
+.footer_home{
+    margin-top: 1rem;
+}
+
 .club {
     color: red;
     font-family: 'Dekko-Regular';
@@ -568,9 +658,9 @@ footer>a:hover {
 }
 
 #music-player-button-inner{
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left;
     background-color: #cccccc;
     aspect-ratio: 1;
     width: auto;
