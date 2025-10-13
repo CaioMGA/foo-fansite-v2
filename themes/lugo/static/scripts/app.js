@@ -223,7 +223,7 @@ function ShowAboutPanel() {
 }
 
 function GoToLyricsPage() {
-    window.location.href = "./lyrics"
+    window.location.href = "./tags/lyrics"
 }
 
 function HideAboutPanel() {

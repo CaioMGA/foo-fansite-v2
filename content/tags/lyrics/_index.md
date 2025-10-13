@@ -1,0 +1,5 @@
++++
+title = 'Lyrics'
+type = 'lyrics'
++++
+
