@@ -1,7 +1,8 @@
 +++
 date = '2019-10-12T23:50:17-03:00'
 title = 'Ben Wyatt'
-tags = ['2019','Gourmet Ravioli', 'lyrics']
+tags = ['2019','lyrics']
+albums = 'Gourmet Ravioli(2019)'
 +++
 {{< youtube NTvWFmU_ut4 >}}
 

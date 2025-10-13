@@ -43,3 +43,36 @@ footer {
 #nextart,#prevart {
 	max-width: 33% ;
 }
+
+.albums-listed {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+	list-style: decimal;
+	justify-content: space-between;
+	align-items: baseline;
+
+}
+
+.song-list{
+	width: 200px;
+}
+
+ul.song-list{
+	list-style: square !important;
+}
+
+
+.overflow-x{
+	text-wrap: none;
+	width: 1000px !important;
+}
+
+ol > h3 {
+	margin-top: 0;
+}
+
+h2 {
+	text-align: center;
+}

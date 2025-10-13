@@ -1,7 +1,8 @@
 +++
 date = '2022-10-12T23:50:32-03:00'
 title = 'Headless'
-tags = ['2022', 'CHAO', 'lyrics']
+tags = ['2022', 'lyrics']
+albums = 'CHAOS (2022)'
 +++
 {{< youtube 2of8Sry8WtE >}}
 

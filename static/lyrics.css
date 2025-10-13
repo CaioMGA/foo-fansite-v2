@@ -1,0 +1,15 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-image: url("/imgs/lyrics-bg-sepia.png") !important;
+    background-size: 100%;
+    backdrop-filter: blur(0.3rem);
+    width: 100%;
+    height: 100%;
+
+    margin:0;
+    padding: 8px;
+}

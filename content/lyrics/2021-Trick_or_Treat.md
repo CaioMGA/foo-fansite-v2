@@ -1,7 +1,8 @@
 +++
 date = '2021-10-12T23:50:26-03:00'
 title = 'Trick or Treat'
-tags = ['2021', 'Gotta Record Everything Good', 'lyrics']
+tags = ['2021', 'lyrics']
+albums = 'Gotta Record Everything Good (2021)'
 +++
 {{< youtube GsnkJPk38xc >}}
 

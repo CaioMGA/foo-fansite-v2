@@ -171,7 +171,7 @@ function ShowPlayerOnly() {
     isPlaying = true;
     document.getElementsByClassName("year_selector_container")[0].classList.add("hidden");
 
-    document.getElementsByClassName("main-buttons-container")[0].classList.add("hidden");
+    document.getElementsByClassName("grid")[0].classList.add("hidden");
 
     document.getElementsByTagName("footer")[0].classList.add("hidden");
 
@@ -188,7 +188,7 @@ function ShowMinimizedVideoLayout() {
     isPlaying = false;
     document.getElementsByClassName("year_selector_container")[0].classList.remove("hidden");
 
-    document.getElementsByClassName("main-buttons-container")[0].classList.remove("hidden");
+    document.getElementsByClassName("grid")[0].classList.remove("hidden");
 
     document.getElementsByTagName("footer")[0].classList.remove("hidden");
 

@@ -1,7 +1,8 @@
 +++
 date = '2021-10-12T23:50:22-03:00'
 title = 'Bookmobile'
-tags = ['2021', 'Gotta Record Everything Good', 'lyrics']
+tags = ['2021', 'lyrics']
+albums = 'Gotta Record Everything Good (2021)'
 +++
 {{< youtube CxM6203NQ7w >}}
 

@@ -1,7 +1,8 @@
 +++
 date = '2019-10-12T23:50:14-03:00'
 title = 'Climb That Mountain!'
-tags = ['2019','Gourmet Ravioli', 'lyrics']
+tags = ['2019','lyrics']
+albums = 'Gourmet Ravioli(2019)'
 +++
 {{< youtube jviB7XYoqYk >}}
 

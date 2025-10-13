@@ -1,7 +1,8 @@
 +++
 date = '2024-10-12T23:50:56-03:00'
 title = 'Infinite Lives'
-tags = ['2024', 'Round 6',  'lyrics']
+tags = ['2024', 'lyrics']
+albums = 'Round 6 (2024)'
 +++
 {{< youtube hh7Q2Dm4rHo >}}
 

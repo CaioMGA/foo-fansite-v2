@@ -1,7 +1,8 @@
 +++
 date = '2022-10-12T23:50:31-03:00'
 title = 'Spooky Time'
-tags = ['2022', 'CHAO', 'lyrics']
+tags = ['2022', 'lyrics']
+albums = 'CHAOS (2022)'
 +++
 {{< youtube bPaWa1wuJrI >}}
 

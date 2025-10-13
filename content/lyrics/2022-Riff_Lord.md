@@ -1,7 +1,8 @@
 +++
 date = '2022-10-12T23:50:34-03:00'
 title = 'Riff Lord'
-tags = ['2022', 'CHAO', 'lyrics']
+tags = ['2022', 'lyrics']
+albums = 'CHAOS (2022)'
 +++
 {{< youtube aydsBQiG5w0 >}}
 

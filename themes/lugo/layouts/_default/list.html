@@ -3,10 +3,12 @@
 {{- end }}
 {{ define "main" -}}
 {{ .Content }}
+
 <ul>
-{{- range.Pages }}
+{{- range.Pages.ByTitle }}
+
 <li>
-	{{- if .Param "datesinlist" }}<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "2006 Jan 02" }}</time> &ndash; {{ end -}}
+	{{- if .Param "datesinlist" }}<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "2006" }}</time> &ndash; {{ end -}}
 	<a href="{{ .RelPermalink }}">{{ .Title }}</a>
 	{{- if .Param "authorsinlist" }}
 	{{ with .Params.authors }}

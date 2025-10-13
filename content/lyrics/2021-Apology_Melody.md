@@ -1,7 +1,8 @@
 +++
 date = '2021-10-12T23:50:24-03:00'
 title = 'Apology Melody'
-tags = ['2021', 'Gotta Record Everything Good', 'lyrics']
+tags = ['2021', 'lyrics']
+albums = 'Gotta Record Everything Good (2021)'
 +++
 {{< youtube TpkAILC0ubQ >}}
 

@@ -102,7 +102,7 @@ main {
 }
 .secondary-btn{
     grid-column: 2 / span 3;
-    grid-row: span 3;
+    grid-row: span 4;
     background-color: yellow;
 }
 

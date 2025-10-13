@@ -1,4 +1,9 @@
-baseURL = 'https://example.org/'
+baseURL = 'foo.brchad.com'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Foo Fansite'
 theme = 'lugo'
+
+
+[taxonomies]
+  tag = "tags"
+  album = "albums"

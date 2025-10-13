@@ -1,7 +1,8 @@
 +++
 date = '2018-10-12T23:50:04-03:00'
 title = "Don't Go"
-tags = ['2018','Ten Hours', 'lyrics']
+tags = ['2018','lyrics']
+albums = "Ten Hours (2018)"
 +++
 {{< youtube 8CfHIVXXGLw >}}
 

@@ -1,0 +1,41 @@
+{{ define "title" -}}
+{{ .Title | title }}
+{{- end }}
+{{ define "main" -}}
+
+
+  {{/* Lista agrupada por álbum */}}
+  <h2>By Album</h2>
+  <div class="albums-listed">
+  {{ $lyrics := where site.RegularPages "Params.tags" "intersect" (slice "lyrics") }}
+  {{ $albumsWithYear := slice }}
+  {{ range site.Taxonomies.albums }}
+    {{ $albumTitle := .Page.Title }}
+    {{ $year := "" }}
+    {{ if strings.Contains $albumTitle "(" }}
+      {{ $year = replaceRE ".*\\((\\d{4})\\).*" "$1" $albumTitle }}
+    {{ end }}
+    {{ $albumsWithYear = $albumsWithYear | append (dict "album" . "year" $year "title" $albumTitle) }}
+  {{ end }}
+  {{ range sort $albumsWithYear "year" "desc" }}
+  <ol class="song-list">
+        <h3>{{ .title }}</h3>
+      {{ range sort .album.Pages "Title" }}
+        {{ if in .Params.tags "lyrics" }}
+          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ end }}
+      {{ end }}
+    </ol>
+  {{ end }}
+  </div>
+
+
+
+{{/* Lista alfabética de todas as letras */}}
+  <h2>By Name</h2>
+  <ul class="song-list">
+    {{ range sort (where site.RegularPages "Params.tags" "intersect" (slice "lyrics")) "Title" }}
+      <li class="overflow-x"><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+    {{ end }}
+  </ul>
+{{ end }}

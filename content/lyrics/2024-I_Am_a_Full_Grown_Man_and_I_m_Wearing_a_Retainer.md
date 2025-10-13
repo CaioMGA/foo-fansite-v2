@@ -1,7 +1,8 @@
 +++
 date = '2024-10-12T23:50:58-03:00'
 title = "I Am a Full Grown Man and I'm Wearing a Retainer"
-tags = ['2024', 'Round 6',  'lyrics']
+tags = ['2024', 'lyrics']
+albums = 'Round 6 (2024)'
 +++
 {{< youtube 3JcRXj3r_iQ >}}
 

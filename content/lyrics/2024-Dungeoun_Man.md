@@ -1,7 +1,8 @@
 +++
 date = '2024-10-12T23:50:53-03:00'
 title = 'Dungeoun Man'
-tags = ['2024', 'Round 6',  'lyrics']
+tags = ['2024', 'lyrics']
+albums = 'Round 6 (2024)'
 +++
 {{< youtube Dbe58jAt7C8 >}}
 

@@ -1,7 +1,8 @@
 +++
 date = '2023-10-12T23:50:50-03:00'
 title = 'Live Out Loud'
-tags = ['2023', 'Across The Road',  'lyrics']
+tags = ['2023',  'lyrics']
+albums = 'Across The Road (2023)'
 +++
 {{< youtube e53-p_mIt7g >}}
 
