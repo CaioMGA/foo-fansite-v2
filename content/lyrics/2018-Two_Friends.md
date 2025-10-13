@@ -1,5 +1,46 @@
 +++
-date = '2018-10-11T18:11:17-03:00'
-title = '2018 Two_Friends'
-tags= ['2018 - First of October', 'lyrics']
+date = '2018-10-12T23:50:02-03:00'
+title = 'Two Friends'
+tags = ['2018','Ten Hours', 'lyrics']
 +++
+{{< youtube 1fDrVDgUWLc >}}
+
+## Two Friends
+
+[Verse 1]
+
+I've got these two friends that I know
+
+I met them at the last- show
+
+And I’d like to see them, but I can't be seen with them and my friends
+
+If they go, then I can't go
+
+&nbsp;
+
+
+[Verse 2]
+
+I’ve got these two friends that I know
+
+They don't really smell that great- woah, that's bad
+
+I would love to see them, but I can't be seen with them and my friends
+
+If they go, then I can't go
+
+
+&nbsp;
+
+[Verse 3]
+
+I've got these two friends that I know
+
+And I wish I could talk to them, I wish I could talk to them
+
+I have two smelly friends that I know
+
+And I wish I could talk to them, yeah, I wish I could talk to them
+
+But they smell so bad, I can't be seen with them

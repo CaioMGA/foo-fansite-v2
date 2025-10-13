@@ -1,4 +1,24 @@
 +++
-date = '2021-10-11T18:16:45-03:00'
-title = '2021 Apology_Melody'
+date = '2021-10-12T23:50:24-03:00'
+title = 'Apology Melody'
+tags = ['2021', 'Gotta Record Everything Good', 'lyrics']
 +++
+{{< youtube TpkAILC0ubQ >}}
+
+## Apology Melody
+
+[Verse]
+
+Honey, left the oven on and I'm sorry
+
+Baby, made a birthday cake for your party
+
+Honey, I left the oven on and I'm sorry
+
+Baby, need to change some plans for your party
+
+&nbsp;
+
+[Outro]
+
+And have it somewhere else

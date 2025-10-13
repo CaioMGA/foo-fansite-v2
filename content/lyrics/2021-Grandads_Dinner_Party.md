@@ -1,4 +1,0 @@
-+++
-date = '2021-10-11T18:16:45-03:00'
-title = '2021 Grandads_Dinner_Party'
-+++

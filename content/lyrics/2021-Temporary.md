@@ -1,4 +1,38 @@
 +++
-date = '2021-10-11T18:16:45-03:00'
-title = '2021 Temporary'
+date = '2021-10-12T23:50:28-03:00'
+title = 'Temporary'
+tags = ['2021', 'Gotta Record Everything Good', 'lyrics']
 +++
+{{< youtube F1tdxuXQEpM >}}
+
+## Temporary
+
+Everything is temporary
+
+Maybe even you
+
+Everything is temporary
+
+Maybe even you
+
+Everything is temporary
+
+Maybe even you
+
+Everything is temporary
+
+Maybe even you
+
+Everything is temporary
+
+Maybe even you
+
+Everything is temporary
+
+Maybe even you
+
+Everything is temporary
+
+Maybe even you
+
+There's no other

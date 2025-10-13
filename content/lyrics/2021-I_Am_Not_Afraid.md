@@ -1,4 +1,63 @@
 +++
-date = '2021-10-11T18:16:44-03:00'
-title = '2021 I_Am_Not_Afraid'
+date = '2021-10-12T23:50:23-03:00'
+title = 'I Am Not Afraid'
+tags = ['2021', 'Gotta Record Everything Good', 'lyrics']
 +++
+{{< youtube fz6MLi3y0Ig >}}
+
+## I Am Not Afraid
+
+[Verse 1]
+
+I haven't been back since the incident
+
+Back then I was so innocent
+
+I’m not gonna run, I'm not gonna scream
+
+I'm gonna get coffee with sugar and cream
+
+&nbsp;
+
+[Chorus]
+
+’Cause I am not afraid of the crêpes
+
+Get the eggs in my face
+
+Hollandaise on my plate
+
+I'm having breakfast at this place
+
+&nbsp;
+
+[Verse 2]
+
+Uh, yes, a table for one
+
+I'm going to have breakfast, I'm going to have fun
+
+I will sit and eat here
+
+Don't mind my protective gear!
+
+&nbsp;
+
+[Chorus]
+
+I am not afraid of the crêpes
+
+Get the eggs in my face
+
+Hollandaise on my plate
+
+I'm eating breakfast at this place
+
+I'm not afraid of the crêpes
+
+Get the eggs in my face
+
+Hollandaise on my plate
+
+I'm eating breakfast at this place
+

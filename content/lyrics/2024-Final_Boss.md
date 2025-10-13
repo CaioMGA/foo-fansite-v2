@@ -1,4 +1,72 @@
 +++
-date = '2024-10-11T18:22:11-03:00'
-title = '2024 Final_Boss'
+date = '2024-10-12T23:50:55-03:00'
+title = 'Final Boss'
+tags = ['2024', 'Round 6',  'lyrics']
 +++
+{{< youtube uNt41oLNhOk >}}
+
+## Final Boss
+
+[Chorus]
+
+I'm lungin', in the dungeon
+
+(Go, dungeon man!)
+
+I'm punchin', in the dungeon
+
+(Woo!)
+
+(Go, dungeon man!)
+
+HP droppin', show stoppin'
+
+(No, dungeon man!)
+
+Always crunchin', in the dungeon
+
+(No, dungeon man!)
+
+&nbsp;
+
+[Chorus]
+
+I'm lungin', in the dungeon
+
+(Go, dungeon man!)
+
+I'm punchin', in the dungeon
+
+(Woo!)
+
+(Go, dungeon man!)
+
+HP droppin', show stoppin' (Yeah! Yeah! Yeah!)
+
+(No, dungeon man!)
+
+Always crunchin', in the dungeon
+
+(No, dungeon man!)
+
+&nbsp;
+
+[Outro]
+
+Alright, fake gamers
+
+This is Round 6—Final boss!
+
+What do you got?
+
+If you can't deal with this, then you can't game
+
+Dungeon man
+
+Let's see it—Go!
+
+&nbsp;
+
+[Outro]
+
+Ahhh!!

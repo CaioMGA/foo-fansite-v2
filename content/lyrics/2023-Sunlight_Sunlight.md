@@ -1,4 +1,54 @@
 +++
-date = '2023-10-11T18:20:29-03:00'
-title = '2023 Sunlight_Sunlight'
+date = '2023-10-12T23:50:48-03:00'
+title = 'Sunlight, Sunlight'
+tags = ['2023', 'Across The Road',  'lyrics']
 +++
+{{< youtube 9kNjtkVjsYs >}}
+
+## Sunlight, Sunlight
+
+[Verse]
+
+We get only get one time
+
+To run in the sunshine
+
+So why be unkind?
+
+‘Cause if that’s all we have, well, I don’t mind
+
+&nbsp;
+
+[Chorus]
+
+It’s alright
+
+The sunlight
+
+It’s alright
+
+Sunlight, sunlight
+
+&nbsp;
+
+[Verse]
+
+We only get one time
+
+To run in the sunshine
+
+So why be unkind?
+
+‘Cause if that’s all we have, well, I don’t mind
+
+&nbsp;
+
+[Chorus]
+
+It’s alright
+
+The sunlight
+
+It’s alright
+
+Sunlight, sunlight
