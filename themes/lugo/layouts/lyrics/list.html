@@ -20,7 +20,7 @@
   {{ range sort $albumsWithYear "year" "desc" }}
   <ol class="song-list">
         <h3>{{ .title }}</h3>
-      {{ range sort .album.Pages "Title" }}
+      {{ range sort .album.Pages "Date" }}
         {{ if in .Params.tags "lyrics" }}
           <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
         {{ end }}
