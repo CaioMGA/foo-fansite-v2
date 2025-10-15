@@ -22,7 +22,8 @@
 		<h1 id="nav__title">First of October <span class="nav__title__extra">fansite</span></h1>
 		<ul>
 			<li><a href="/">Home</a></li>
-			<li><a href="/music-player.html">Music Player</a></li>
+			<li><a href="/tags/blog/">Blog</a></li>
+			<li><a href="/music-player.html">Player</a></li>
 			<li><a href="/lyrics">Lyrics</a></li>
 			<li><a href="/about">About</a></li>
 			<li><a href="/contact">Contact</a></li>
@@ -44,5 +45,19 @@
 	{{- if .Param "showrss" }}<br><br><a href="/index.xml"><img src="/rss.svg" style="max-height:1.5em" alt="RSS Feed" title="Subscribe via RSS for updates."></a>{{ end }}
 </footer>
 {{ end }}
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const links = document.querySelectorAll('a[href]');
+  links.forEach(link => {
+    const url = new URL(link.href, window.location.origin);
+    if (url.origin !== window.location.origin) {
+      link.setAttribute('target', '_blank');
+      link.setAttribute('rel', 'noopener noreferrer');
+    }
+  });
+});
+</script>
+
 </body>
 </html>
