@@ -37,3 +37,9 @@ Everything is temporary
 Maybe even you
 
 There's no other
+
+&nbsp;
+
+&nbsp;
+
+_source: [Genius](https://genius.com/artists/First-of-october)_

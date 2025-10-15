@@ -35,3 +35,9 @@ But it seems I go on
 [Outro]
 
 But it seems I go on
+
+&nbsp;
+
+&nbsp;
+
+_source: [Genius](https://genius.com/artists/First-of-october)_

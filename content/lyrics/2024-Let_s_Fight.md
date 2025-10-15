@@ -29,3 +29,9 @@ Select your character's tie color
 This next match is formal
 
 Let's fight, let's fight, let's fight!
+
+&nbsp;
+
+&nbsp;
+
+_source: [Genius](https://genius.com/artists/First-of-october)_

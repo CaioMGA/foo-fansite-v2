@@ -61,3 +61,9 @@ Trying to escape the crowd
 No one is showing me how
 
 I’m gonna live out loud
+
+&nbsp;
+
+&nbsp;
+
+_source: [Genius](https://genius.com/artists/First-of-october)_

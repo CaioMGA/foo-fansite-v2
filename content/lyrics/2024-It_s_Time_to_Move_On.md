@@ -67,3 +67,9 @@ I've got to be strong
 Change what I can change, and carry on
 
 (Yeah)
+
+&nbsp;
+
+&nbsp;
+
+_source: [Genius](https://genius.com/artists/First-of-october)_
