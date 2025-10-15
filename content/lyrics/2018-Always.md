@@ -1,5 +1,5 @@
 +++
-date = '2018-10-12T23:50:07-03:00'
+date = '2018-10-01T23:50:07-03:00'
 title = 'Always'
 tags = ['2018','lyrics']
 albums = "Ten Hours (2018)"

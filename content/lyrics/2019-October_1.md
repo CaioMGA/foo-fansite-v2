@@ -1,5 +1,5 @@
 +++
-date = '2019-10-12T23:50:13-03:00'
+date = '2019-10-01T23:50:13-03:00'
 title = 'October 1'
 tags = ['2019','lyrics']
 albums = 'Gourmet Ravioli (2019)'

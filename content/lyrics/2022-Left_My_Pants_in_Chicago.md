@@ -1,5 +1,5 @@
 +++
-date = '2022-10-12T23:50:37-03:00'
+date = '2022-10-01T23:50:37-03:00'
 title = 'Left My Pants in Chicago'
 tags = ['2022', 'lyrics']
 albums = 'CHAOS (2022)'

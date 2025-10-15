@@ -1,5 +1,5 @@
 +++
-date = '2024-10-12T23:51:01-03:00'
+date = '2024-10-01T23:51:01-03:00'
 title = "It's Time to Move On"
 tags = ['2024', 'lyrics']
 albums = 'Round 6 (2024)'

@@ -1,5 +1,5 @@
 +++
-date = '2021-10-12T23:50:23-03:00'
+date = '2021-10-01T23:50:23-03:00'
 title = 'I Am Not Afraid'
 tags = ['2021', 'lyrics']
 albums = 'Gotta Record Everything Good (2021)'

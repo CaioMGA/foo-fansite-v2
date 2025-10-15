@@ -1,5 +1,5 @@
 +++
-date = '2022-10-12T23:50:36-03:00'
+date = '2022-10-01T23:50:36-03:00'
 title = "It's Halloween"
 tags = ['2022', 'lyrics']
 albums = 'CHAOS (2022)'

@@ -1,5 +1,5 @@
 +++
-date = '2023-10-12T23:50:46-03:00'
+date = '2023-10-01T23:50:46-03:00'
 title = 'Pretty Raw'
 tags = ['2023',  'lyrics']
 albums = 'Across The Road (2023)'

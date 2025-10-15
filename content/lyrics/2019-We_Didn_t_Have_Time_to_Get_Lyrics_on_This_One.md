@@ -1,5 +1,5 @@
 +++
-date = '2019-10-12T23:50:18-03:00'
+date = '2019-10-01T23:50:18-03:00'
 title = "We Didn't Have Time to Get Lyrics on This One"
 tags = ['2019','lyrics']
 albums = 'Gourmet Ravioli (2019)'

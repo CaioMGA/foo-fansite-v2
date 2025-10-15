@@ -1,5 +1,5 @@
 +++
-date = '2025-10-12T23:52:11-03:00'
+date = '2025-10-01T23:52:11-03:00'
 title = 'Greg is Coming to Town'
 tags = ['2025', 'lyrics']
 albums = 'TBA (2025)'

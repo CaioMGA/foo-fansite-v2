@@ -1,5 +1,5 @@
 +++
-date = '2025-10-12T23:52:08-03:00'
+date = '2025-10-01T23:52:08-03:00'
 title = 'Michael Squiers'
 tags = ['2025', 'lyrics']
 albums = 'TBA (2025)'

@@ -1,5 +1,5 @@
 +++
-date = '2025-10-12T23:52:05-03:00'
+date = '2025-10-01T23:52:05-03:00'
 title = 'I Am Enough'
 tags = ['2025', 'lyrics']
 albums = 'TBA (2025)'
