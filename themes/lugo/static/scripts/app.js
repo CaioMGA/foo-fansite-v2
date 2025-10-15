@@ -217,8 +217,7 @@ function IsFullscreen() {
 }
 
 function ShowAboutPanel() {
-    document.getElementById("about-container").classList.remove("hidden");
-    console.log("Show about");
+    window.location.href = "/about/"
 
 }
 
@@ -240,7 +239,7 @@ function ShowZinesPage(){
 }
 
 function ShowContactPanel() {
-    document.getElementById("contact-container").classList.remove("hidden");
+    window.location.href = "/contact/"
 }
 
 function HideContactPanel() {
