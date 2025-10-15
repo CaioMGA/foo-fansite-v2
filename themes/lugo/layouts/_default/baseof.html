@@ -17,7 +17,19 @@
 <body>
 {{ if .Site.Menus.main }}{{ partial "nav.html" . }}{{ end -}}
 <main>
-<header><h1 id="tag_{{ .Title }}">{{ block "title" . }}{{ end }}</h1></header>
+<header>
+	<nav>
+		<h1 id="nav__title">First of October <span class="nav__title__extra">fansite</span></h1>
+		<ul>
+			<li><a href="/">Home</a></li>
+			<li><a href="/music-player.html">Music Player</a></li>
+			<li><a href="/lyrics">Lyrics</a></li>
+			<li><a href="/about">About</a></li>
+			<li><a href="/contact">Contact</a></li>
+		</ul>
+	</nav>
+	<h1 id="tag_{{ .Title }}">{{ block "title" . }}{{ end }}</h1>
+</header>
 <article>
 {{ block "main" . }}
 {{ .Content }}
@@ -28,7 +40,7 @@
 </main>
 {{ block "footer" . }}
 <footer>
-	<a href="{{ .Site.BaseURL }}">{{ .Site.BaseURL }}</a>
+	<a class="inverted-link" href="{{ .Site.BaseURL }}">Home</a>
 	{{- if .Param "showrss" }}<br><br><a href="/index.xml"><img src="/rss.svg" style="max-height:1.5em" alt="RSS Feed" title="Subscribe via RSS for updates."></a>{{ end }}
 </footer>
 {{ end }}

@@ -1,12 +1,28 @@
+@font-face {
+    font-family: 'Anton-Regular';
+    src: url('/fonts/Anton-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Dosis-Medium';
+    src: url('/fonts/Dosis-Medium.ttf') format('truetype');
+}
+
 body {
 	font-family: sans-serif ;
 	background: #110000 ;
 	color: #ccc ;
+	font-family: 'Courier New', Courier, monospace;
+	/* font-family: 'Dosis-Medium', monospace; */
 }
 
 main {
 	max-width: 800px ;
 	margin: auto ;
+}
+
+p{
+	margin: 0.5rem 0;
 }
 
 img {
@@ -15,6 +31,7 @@ img {
 
 header h1 {
 	text-align: center ;
+	color: #ff6;
 }
 
 footer {
@@ -74,5 +91,85 @@ ol > h3 {
 }
 
 h2 {
-	text-align: center;
+	text-align: left;
+	color: #7ff;
+}
+
+.padding-left-32{
+	padding-left: 32px;
+}
+
+h3{
+	color: #f7f;
+}
+
+a {
+	color: #ccc;
+	background-color: #000;
+}
+
+a:hover {
+	color: #000;
+	background-color: #fff;
+	border: 2px white solid;
+}
+
+a:hover>div {
+	color: #000;
+	background-color: #fff;
+}
+
+.inverted-link{
+	color: #000;
+	background-color: #fff;
+	padding: 0.3rem 0.7rem;
+	line-height: 2rem;
+}
+
+.inverted-link:hover{
+	color: #fff;
+	background-color: #000;
+	border: 1px white solid;
+}
+
+nav{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border-bottom: 1px #bbb solid;
+}
+
+nav > ul {
+	display: flex;
+	flex-direction: row;
+	gap: 8px;
+	list-style: none;
+	align-items: center;
+	padding: 0;
+}
+
+nav>ul>li{
+	padding: 0;
+}
+
+nav>ul>li>a{
+	padding: 0.2rem;
+}
+
+nav>h1{
+	color: #080000;
+    background-color: white;
+    padding: 0 0.5em;
+    font-family: 'Anton-Regular';
+    font-weight: 400;
+    text-align: center;
+    display: inline;
+    overflow: visible;
+    text-wrap: nowrap;
+}
+
+nav > h1> .nav__title__extra {
+	color: #777;
+	font-size: 1rem;
+	left: 0;
 }
