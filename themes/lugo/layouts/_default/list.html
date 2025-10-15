@@ -5,10 +5,13 @@
 {{ .Content }}
 
 <ul>
-{{- range.Pages.ByTitle }}
+{{- range.Pages.ByDate.Reverse }}
 
 <li>
-	{{- if .Param "datesinlist" }}<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "2006" }}</time> &ndash; {{ end -}}
+	{{- if and .Params.tags (in .Params.tags "blog") -}}
+	<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format "2006-01-02" }}</time> &ndash; 
+	{{ end -}}
+	
 	<a href="{{ .RelPermalink }}">{{ .Title }}</a>
 	{{- if .Param "authorsinlist" }}
 	{{ with .Params.authors }}
