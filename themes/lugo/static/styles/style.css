@@ -387,15 +387,19 @@ main {
 
 @keyframes panAnimation{
     0%{
-        background-position: left;
+        background-position: center;
     }
 
-    50%{
+    25%{
         background-position: right;
     }
 
-    100%{
+    75%{
         background-position: left;
+    }
+
+    100%{
+        background-position: center;
     }
 }
 
@@ -529,6 +533,9 @@ button{
 }
 
 .player-fullscreen {
+    position: absolute;
+    top:0;
+    left: 0;
     height: 100vh;
     width: 100vw;
     transition: 1.5s;
