@@ -8,7 +8,7 @@ albums = 'TBA (2025)'
 
 ## Liberation
 
-[Letra ainda não disponível]
+_Lyrics Soon_
 
 &nbsp;
 

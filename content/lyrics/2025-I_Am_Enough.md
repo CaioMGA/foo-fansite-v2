@@ -8,7 +8,7 @@ albums = 'TBA (2025)'
 
 ## I Am Enough
 
-[Letra ainda não disponível]
+_Lyrics Soon_
 
 &nbsp;
 

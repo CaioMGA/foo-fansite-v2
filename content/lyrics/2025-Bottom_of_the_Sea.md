@@ -8,7 +8,7 @@ albums = 'TBA (2025)'
 
 ## Bottom of the Sea
 
-[Letra ainda não disponível]
+_Lyrics Soon_
 
 &nbsp;
 
