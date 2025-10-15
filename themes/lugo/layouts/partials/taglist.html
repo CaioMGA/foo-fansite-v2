@@ -1,13 +1,20 @@
+        {{- if or (isset .Params "tags") (isset .Params "albums") -}}
+        <div style="clear:both" class=taglist>
+		{{- with .Site.Params.relatedtext }}{{ . }}<br>{{ end -}}
         {{- if isset .Params "tags" -}}
             {{- $tagsLen := len .Params.tags -}}
             {{- if gt $tagsLen 0 -}}
-        <div style="clear:both" class=taglist>
-		{{- with .Site.Params.relatedtext }}{{ . }}<br>{{ end -}}
                 {{- range $k, $v := .Params.tags -}}
                 {{- $url := printf "/tags/%s" (. | urlize | lower) -}}
                 <a id="tag_{{ . | lower }}" href="{{ $url | absURL }}">{{ . | title }}</a>
                 {{- if lt $k (sub $tagsLen 1) }} &middot; {{ end -}}
                 {{- end -}}
-        </div>
             {{- end -}}
+        {{- end -}}
+        {{- if and (isset .Params "albums") (isset .Params "tags") (gt (len .Params.tags) 0) }} &middot; {{ end -}}
+        {{- if isset .Params "albums" -}}
+            {{- $albumUrl := printf "/albums/%s" (.Params.albums | urlize | lower) -}}
+            <a id="album_{{ .Params.albums | urlize | lower }}" href="{{ $albumUrl | absURL }}">{{ .Params.albums }}</a>
+        {{- end -}}
+        </div>
         {{- end }}
