@@ -36,7 +36,7 @@ header h1 {
 
 footer {
 	text-align: center ;
-	clear: both ;
+	clear: both;
 }
 
 /* For TAGLIST.HTML */
@@ -117,6 +117,11 @@ a:hover {
 a:hover>div {
 	color: #000;
 	background-color: #fff;
+}
+
+a.img-link:hover {
+	border: none !important;
+    background-color: transparent;
 }
 
 .inverted-link{

@@ -43,3 +43,8 @@ footer {
 #nextart,#prevart {
 	max-width: 33% ;
 }
+
+a.img-link:hover {
+	border: none !important;
+    background-color: transparent;
+}

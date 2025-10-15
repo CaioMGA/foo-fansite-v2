@@ -653,8 +653,17 @@ footer>a:hover {
     text-decoration: underline;
 }
 
+a.img-link:hover {
+	border: none !important;
+    background-color: transparent;
+}
+
 .footer_home{
     margin-top: 1rem;
+}
+
+footer > img {
+	margin-top:4px;
 }
 
 .club {

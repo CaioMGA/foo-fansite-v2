@@ -42,7 +42,8 @@
 {{ block "footer" . }}
 <footer>
 	<a class="inverted-link" href="{{ .Site.BaseURL }}">Home</a>
-	{{- if .Param "showrss" }}<br><br><a href="/index.xml"><img src="/rss.svg" style="max-height:1.5em" alt="RSS Feed" title="Subscribe via RSS for updates."></a>{{ end }}
+	{{- if .Param "showrss" }}<br><br><a  class="img-link" href="/index.xml"><img src="/rss.svg" style="max-height:1.5em" alt="RSS Feed" title="Subscribe via RSS for updates."></a>{{ end }}
+	<a class="img-link" href="https://brchad.com" target="_blank"><img src="/brchad-2025.png" alt="BRCHAD button"></a>
 </footer>
 {{ end }}
 
