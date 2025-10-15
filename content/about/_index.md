@@ -18,11 +18,6 @@ I updated the site in 2025 to have all the lyrics for the songs. To achieve this
 
 I decided to create this site because this is the only band I look forward to their next album every year. Lyrics were collected on [Genius](https://genius.com/artists/First-of-october).
 
-- Andrew Huang on [Youtube](https://www.youtube.com/@andrewhuang)
-- Rob Scallon on [Youtube](https://www.youtube.com/@robscallon/)
-- Source code is available at [Github](https://github.com/CaioMGA/foo-fansite)
-- [Projects](https://brchad.com) by Caio Amaral
-
 ### Stack/Tech/Sources
 
 - HTML
@@ -34,3 +29,10 @@ I decided to create this site because this is the only band I look forward to th
 - Locaweb (VPS Hosting)
 - GoDaddy (Registrar)
 - Google Fonts (ttf fonts)
+
+### Links
+
+- Andrew Huang on [Youtube](https://www.youtube.com/@andrewhuang)
+- Rob Scallon on [Youtube](https://www.youtube.com/@robscallon/)
+- Source code is available at [Github](https://github.com/CaioMGA/foo-fansite-v2)
+- [Projects](https://brchad.com) by Caio Amaral
