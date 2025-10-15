@@ -2,7 +2,7 @@
 date = '2019-10-12T23:50:10-03:00'
 title = 'First of October'
 tags = ['2019','lyrics']
-albums = 'Gourmet Ravioli(2019)'
+albums = 'Gourmet Ravioli (2019)'
 +++
 {{< youtube KMp5dOdyFaY >}}
 
