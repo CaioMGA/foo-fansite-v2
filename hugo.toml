@@ -1,4 +1,4 @@
-baseURL = 'foo.brchad.com'
+baseURL = 'https://foo.brchad.com/'
 languageCode = 'en-us'
 title = 'Foo Fansite'
 theme = 'lugo'
