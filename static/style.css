@@ -209,3 +209,35 @@ blockquote::after {
   bottom: -30px;
   font-family: Arial, sans-serif;
 }
+
+@media screen and (max-width: 800px) {
+	nav{
+		display: flex;
+		flex-direction: column;
+		justify-content: start;
+		border-bottom: 1px #bbb solid;
+	}
+
+	nav > ul {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		gap: 8px;
+		list-style: none;
+		align-items: center;
+		padding: 0;
+		max-width: 100dvw;
+		margin-top: 0;
+	}
+
+	#nav__title {
+		width: 248px !important;
+		margin-bottom: 1rem;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	#nav__title {
+		width: auto !important;
+	}
+}
