@@ -38,6 +38,7 @@ body {
     justify-content: center;
     align-items: center;
     height:auto;
+    min-height: 90dvh;
     width:100%;
     background-color: blanchedalmond;
     animation-duration: 1s;
