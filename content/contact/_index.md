@@ -1,7 +1,6 @@
 +++
 date = '2025-10-15T09:07:49-03:00'
 title = 'Contact'
-tags = ['blog']
 +++
 
 ### Caio Amaral
@@ -16,11 +15,11 @@ Creative Developer
 
 
 ### Andrew Huang
-- Youtube
-- Instagram
-- Links
+- [Youtube](https://www.youtube.com/andrewhuang)
+- [Instagram](https://www.instagram.com/andrewismusic)
+- [Website](https://andrewhuang.com/)
 
 ### Rob Scallon
-- Youtube
-- Instagram
-- Links
+- [Youtube](https://www.youtube.com/channel/UCyDZai57BfE_N0SaBkKQyXg)
+- [Instagram](https://www.instagram.com/robscallon/)
+- [Links](https://linktr.ee/robscallon)

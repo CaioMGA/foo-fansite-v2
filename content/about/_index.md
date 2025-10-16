@@ -1,7 +1,6 @@
 +++
 date = '2025-10-15T09:07:43-03:00'
 title = 'About'
-tags = ['blog']
 +++
 
 ### About the band
