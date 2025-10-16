@@ -866,6 +866,7 @@ footer > img {
     .year_selector_container{
         flex-wrap: wrap;
         max-width: 90dvw;
+        gap: 8px;
     }
 
     h1 {
