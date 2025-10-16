@@ -31,6 +31,7 @@ I decided to create this site because this is the only band I look forward to th
 
 ### Links
 
+- [First of October Official Merch](https://store.dftba.com/collections/rob-scallon)
 - Andrew Huang on [Youtube](https://www.youtube.com/@andrewhuang)
 - Rob Scallon on [Youtube](https://www.youtube.com/@robscallon/)
 - Source code is available at [Github](https://github.com/CaioMGA/foo-fansite-v2)
