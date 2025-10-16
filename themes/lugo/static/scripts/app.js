@@ -225,6 +225,10 @@ function GoToLyricsPage() {
     window.location.href = "./tags/lyrics"
 }
 
+function GoToBlogPage() {
+    window.location.href = "./tags/blog"
+}
+
 function HideAboutPanel() {
     console.log("Hide about")
     document.getElementById("about-container").classList.add("hidden");
