@@ -2,9 +2,9 @@
 date = '2025-10-01T23:52:09-03:00'
 title = 'Murder Geese'
 tags = ['2025', 'lyrics']
-albums = 'TBA (2025)'
+albums = 'One Week (2025)'
 +++
-{{< youtube LINK_ID >}}
+{{< youtube b8NX4IXtu04 >}}
 
 ## Murder Geese
 

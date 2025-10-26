@@ -2,9 +2,9 @@
 date = '2025-10-01T23:52:11-03:00'
 title = 'Greg is Coming to Town'
 tags = ['2025', 'lyrics']
-albums = 'TBA (2025)'
+albums = 'One Week (2025)'
 +++
-{{< youtube LINK_ID >}}
+{{< youtube C8rB_e2VK0w >}}
 
 ## Who is it for?
 

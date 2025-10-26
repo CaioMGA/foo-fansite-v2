@@ -2,9 +2,9 @@
 date = '2025-10-01T23:52:06-03:00'
 title = 'Bottom of the Sea'
 tags = ['2025', 'lyrics']
-albums = 'TBA (2025)'
+albums = 'One Week (2025)'
 +++
-{{< youtube LINK_ID >}}
+{{< youtube Cb5L0Hg5bSM >}}
 
 ## Bottom of the Sea
 

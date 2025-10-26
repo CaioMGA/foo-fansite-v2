@@ -2,9 +2,9 @@
 date = '2025-10-01T23:52:08-03:00'
 title = 'Michael Squiers'
 tags = ['2025', 'lyrics']
-albums = 'TBA (2025)'
+albums = 'One Week (2025)'
 +++
-{{< youtube LINK_ID >}}
+{{< youtube QbfgsmE3GLc >}}
 
 ## Michael Squiers
 
