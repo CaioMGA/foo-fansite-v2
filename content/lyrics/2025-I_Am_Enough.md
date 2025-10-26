@@ -20,7 +20,7 @@ I am enough
 
 I've been saving for so long
 
-It's tiotiring out
+It's tiring out
 
 I've been chasing for so long
 
