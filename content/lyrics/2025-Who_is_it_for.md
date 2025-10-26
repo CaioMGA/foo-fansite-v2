@@ -8,10 +8,34 @@ albums = 'One Week (2025)'
 
 ## Who is it for?
 
-_Lyrics Soon_
+I pull 'em over like a tractor beam
+
+So mean I make your grandmother fast and scream
+
+I see you moving like a dancing queen
+
+Eyes gleaming in the center of cathastrophy (oh, yeah)
 
 &nbsp;
 
+But who is it for, is it for?
+
+But who is it for, is it for in the end?
+
 &nbsp;
 
-_source: [Genius](https://genius.com/artists/First-of-october)_
+I'm tearing down the whole factory
+
+Cut deep, I take your blood and paint a masterpiece
+
+I gotta get a bit of gasoline and matches
+
+'Cause no one's ever pohpuhpouihcoming after me
+
+&nbsp;
+
+But who is it for, is it for?
+
+But who is it for, is it for in the end?
+
+&nbsp;

@@ -8,10 +8,72 @@ albums = 'One Week (2025)'
 
 ## Loitering
 
-_Lyrics Soon_
+Cool
+
+I'm rough (he's rough)
+
+I'm tough (he's tough)
+
+I'm cool (so cool)
+
+No rules (he doesn't follow the rules)
 
 &nbsp;
 
+I'm rough (he's rough)
+
+I'm cool (sunglasses)
+
+Stay ih school (spikes... those spikes on his shoulder of his jacket)
+
+I don't know... excep for that one
+
 &nbsp;
 
-_source: [Genius](https://genius.com/artists/First-of-october)_
+Haging out
+
+with the bad guy crowd
+
+In the mall staircase
+
+where we're not allowed
+
+&nbsp;
+
+Haging out
+
+with the bad guy crowd
+
+In the mall staircase
+
+where we're not allowed
+
+&nbsp;
+
+We're loitering
+
+&nbsp;
+
+Haging out
+
+with the bad guy crowd
+
+In the mall staircase
+
+where we're not allowed
+
+&nbsp;
+
+Haging out
+
+with the bad guy crowd
+
+In the mall staircase
+
+where we're not allowed
+
+&nbsp;
+
+We're loitering
+
+&nbsp;

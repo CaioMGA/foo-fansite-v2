@@ -8,10 +8,42 @@ albums = 'One Week (2025)'
 
 ## I Am Enough
 
-_Lyrics Soon_
+I've been wasting for so long
+
+I've had enough
+
+I've been chasing for so long
+
+I am enough
 
 &nbsp;
 
+I've been saving for so long
+
+It's tiotiring out
+
+I've been chasing for so long
+
+I am enough
+
 &nbsp;
 
-_source: [Genius](https://genius.com/artists/First-of-october)_
+How do you stay here?
+
+How do you live here?
+
+How do you go?
+
+How would I know?
+
+&nbsp;
+
+I've been wasting for so long
+
+I've had enough
+
+I've been chasing for so long
+
+I am enough
+
+&nbsp;

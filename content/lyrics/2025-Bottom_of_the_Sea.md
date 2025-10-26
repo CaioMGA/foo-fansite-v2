@@ -8,10 +8,21 @@ albums = 'One Week (2025)'
 
 ## Bottom of the Sea
 
-_Lyrics Soon_
+I'd rather be at the bottom of the sea
+
+and be without you in this party
 
 &nbsp;
 
+I'd rather be with you in a submarine
+
+than be in this crowded room and lonely
+
 &nbsp;
 
-_source: [Genius](https://genius.com/artists/First-of-october)_
+I'd rather be at the bottom of the sea
+
+than be without you at this party
+
+&nbsp;
+

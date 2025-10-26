@@ -8,10 +8,36 @@ albums = 'One Week (2025)'
 
 ## Getting Older
 
-_Lyrics Soon_
+Hey, don't you know?
+
+I'm getting old
+
+We're getting older, darling
+
+Hey, don't you know?
+
+We're getting old
+
+and get stronger everyday
 
 &nbsp;
 
+And I feel ok
+
 &nbsp;
 
-_source: [Genius](https://genius.com/artists/First-of-october)_
+Hey, don't you know?
+
+I'm getting old
+
+We're getting older, darling
+
+Hey, don't you know?
+
+We're getting older and getting stronger everyday
+
+&nbsp;
+
+And I feel ok
+
+&nbsp;

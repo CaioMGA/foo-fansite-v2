@@ -8,10 +8,88 @@ albums = 'One Week (2025)'
 
 ## Who is it for?
 
-_Lyrics Soon_
+Greg! Greg! Greg! Greg!
+
+Yeah!
+
+We're here again with a Greg song
+
+Guess where Greg is coming from?
+
+'Cause
 
 &nbsp;
 
+He's coming to your town
+
+Greg!
+
 &nbsp;
 
-_source: [Genius](https://genius.com/artists/First-of-october)_
+That's right, he's on his way
+
+Any time now
+
+&nbsp;
+
+He's coming to this town
+
+Greg!
+
+&nbsp;
+
+Alright
+
+We're greggin' it up?
+
+Greggin' it up
+
+We're greggin' it down
+
+Greggin' it down
+
+Greggin' it all around
+
+Greggin' it through the town
+
+Greggin' it all around
+
+Greggin' it up
+
+Greggin' it down (and other directions too)
+
+Greg! (Love you, Greg)
+
+&nbsp;
+
+He's coming to your town
+
+Greg!
+
+&nbsp;
+
+That's right (That's left)
+
+He's coming to this town
+
+Greg!
+
+&nbsp;
+
+Thanks for being here for Greg, everybody
+
+Thanks for being here, Greg it up
+
+He's gonna come any minute... we think
+
+Greg! Greg! Greg! Greg!
+
+Greg! Greg! Greg! Greg!
+
+Greg! Greg! Greg! Greg!
+
+We want Greg
+
+Greg!
+
+&nbsp;
