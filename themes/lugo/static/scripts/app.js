@@ -17,7 +17,7 @@ var videos = {
     "2022": { "makingOf": "-qgiguUuhpM", "special": "BSpZWIuiats" },
     "2023": { "makingOf": "G4-LjYf5pbY", "special": "maZoTHkRYuI" },
     "2024": { "makingOf": "qCP4vO5urds", "special": "my2GmzXPDaw" },
-    "2025": { "makingOf": "qCP4vO5urds", "special": "my2GmzXPDaw" },
+    "2025": { "makingOf": "TBINeOHGw_U", "special": "5bOGllwJ_pE" },
 };
 tag.src = "https://www.youtube.com/iframe_api";
 var firstScriptTag = document.getElementsByTagName('script')[0];
