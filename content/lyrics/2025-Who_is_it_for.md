@@ -30,7 +30,7 @@ Cut deep, I take your blood and paint a masterpiece
 
 I gotta get a bit of gasoline and matches
 
-'Cause no one's ever pohpuhpouihcoming after me
+'Cause no one's ever coming after me
 
 &nbsp;
 
