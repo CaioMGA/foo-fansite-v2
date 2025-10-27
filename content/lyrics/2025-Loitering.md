@@ -26,7 +26,7 @@ I'm cool (sunglasses)
 
 Stay ih school (spikes... those spikes on his shoulder of his jacket)
 
-I don't know... excep for that one
+I don't know... except for that one
 
 &nbsp;
 
