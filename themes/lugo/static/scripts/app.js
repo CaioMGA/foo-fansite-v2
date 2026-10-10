@@ -1,15 +1,15 @@
-const MOST_RECENT_YEAR = 2025
+const MOST_RECENT_YEAR = 2026
 var playerControls;
 // 2. This code loads the IFrame Player API code asynchronously.
 var tag = document.createElement('script');
 var playlist = [];
 var isPlaying = false;
-var albumId = "2025";
+var albumId = "2026";
 var hideTimer;
 window.addEventListener('mousemove', ResetTimer);
 document.addEventListener('keypress', ResetTimer);
 ResetTimer();
-const albumIdList = ["2018", "2019", "2021", "2022", "2023", "2024", "2025"];
+const albumIdList = ["2018", "2019", "2021", "2022", "2023", "2024", "2025", "2026"];
 var videos = {
     "2018": { "makingOf": "-QT0Bvf2FIQ", "special": "ZYnsuCt3vLI" },
     "2019": { "makingOf": "qonY5BP_vR8", "special": "6ZIogYd0gSo" },
@@ -18,6 +18,7 @@ var videos = {
     "2023": { "makingOf": "G4-LjYf5pbY", "special": "maZoTHkRYuI" },
     "2024": { "makingOf": "qCP4vO5urds", "special": "my2GmzXPDaw" },
     "2025": { "makingOf": "TBINeOHGw_U", "special": "5bOGllwJ_pE" },
+    "2026": { "makingOf": "TBINeOHGw_U", "special": "5bOGllwJ_pE" }, // TBA: placeholder, same as 2025
 };
 tag.src = "https://www.youtube.com/iframe_api";
 var firstScriptTag = document.getElementsByTagName('script')[0];

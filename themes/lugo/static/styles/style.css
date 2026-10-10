@@ -240,6 +240,24 @@ main {
     background: url("/imgs/2025/special.png");
 }
 /* #endregion */
+/* #region 2026 */
+.cover-2026{
+    background: url("/imgs/2026/album-cover.jpeg");
+    aspect-ratio: 1;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.cover-2026-small{
+    background: url("/imgs/2026/album-cover.jpeg");
+}
+.mo-2026{
+    background: url("/imgs/2026/making-of.png");
+}
+.sp-2026{
+    background: url("/imgs/2026/special.png");
+}
+/* #endregion */
 
 /* #region Playlist Funny */
 .cover-funny{

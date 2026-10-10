@@ -104,8 +104,21 @@ var albums = {
         {"id":"fKyajCGe6GM", "title": "Loitering"},
         {"id":"C8rB_e2VK0w", "title": "Greg is Coming to Town"},
     ],
+    "2026": [
+        {"name": "TBA", "year":"2026", "cover":"2026/album-cover.jpeg"},
+        {"id":"5foqvSuIbIc", "title": "Getting Older"},
+        {"id":"WG0QVNylZvU", "title": "Who is it for?"},
+        {"id":"d41zt245XE4", "title": "True"},
+        {"id":"lUQdqkiMVmo", "title": "I Am Enough"},
+        {"id":"Cb5L0Hg5bSM", "title": "Bottom of the Sea"},
+        {"id":"hvwUBFcvqps", "title": "Liberation"},
+        {"id":"QbfgsmE3GLc", "title": "Michael Squiers"},
+        {"id":"b8NX4IXtu04", "title": "Murder Geese"},
+        {"id":"fKyajCGe6GM", "title": "Loitering"},
+        {"id":"C8rB_e2VK0w", "title": "Greg is Coming to Town"},
+    ],
     "funny": [
-        {"name": "Funny Playlist", "year":"2025", "cover":"msc/playlist-cover-funny.jpeg"},
+        {"name": "Funny Playlist", "year":"2026", "cover":"msc/playlist-cover-funny.jpeg"},
         { "id": "1fDrVDgUWLc", "title": "Two Friends", "year": "2018"},
         { "id": "BbVH6oiRzQo", "title": "Don't Go to My House", "year": "2018"},
         { "id": "s4wkwJBY_Jw", "title": "Thirty-First of October", "year": "2019"},
@@ -121,7 +134,7 @@ var albums = {
 
     ],
     "editors-picks": [
-        {"name": "Editor Picks", "year":"2025", "cover":"msc/playlist-cover-editors-picks.jpeg"},
+        {"name": "Editor Picks", "year":"2026", "cover":"msc/playlist-cover-editors-picks.jpeg"},
         { "id": "BbVH6oiRzQo", "title": "Don't Go to My House", "year": "2018"},
         { "id": "fMVkI8v75_c", "title": "October 1", "year":"2019" },
         { "id": "fz6MLi3y0Ig", "title": "I Am Not Afraid", "year":"2021"  },
