@@ -1,5 +1,5 @@
 baseURL = 'https://foo.brchad.com/'
-languageCode = 'en-us'
+locale = 'en-us'
 title = 'Foo Fansite'
 theme = 'lugo'
 
@@ -42,3 +42,6 @@ theme = 'lugo'
   name = 'Contact'
   url = '/contact'
   weight = 70
+
+[markup.goldmark.renderer]
+  unsafe = true
