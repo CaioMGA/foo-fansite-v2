@@ -7,3 +7,38 @@ theme = 'lugo'
 [taxonomies]
   tag = "tags"
   album = "albums"
+
+[[menus.main]]
+  name = 'Home'
+  url = '/'
+  weight = 10
+
+[[menus.main]]
+  name = 'Blog'
+  url = '/tags/blog/'
+  weight = 20
+
+[[menus.main]]
+  name = 'Player'
+  url = '/music-player.html'
+  weight = 30
+
+[[menus.main]]
+  name = 'Radio'
+  url = '/radio'
+  weight = 40
+
+[[menus.main]]
+  name = 'Lyrics'
+  url = '/lyrics'
+  weight = 50
+
+[[menus.main]]
+  name = 'About'
+  url = '/about'
+  weight = 60
+
+[[menus.main]]
+  name = 'Contact'
+  url = '/contact'
+  weight = 70
