@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language }}">
+<head>
+	<title>{{ .Title }} | {{ .Site.Title }}</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="noindex">
+	{{ with .Params.redirect_url }}<meta http-equiv="refresh" content="0; url={{ . }}">
+	<link rel="canonical" href="{{ . }}">
+	{{ end -}}
+	<link rel='stylesheet' type='text/css' href='/style.css'>
+</head>
+<body>
+<main>
+<header>
+	{{ partial "nav.html" . }}
+	<h1>{{ .Title }}</h1>
+</header>
+<article>
+{{ with .Params.redirect_url -}}
+<p>Redirecting to <a href="{{ . }}">{{ . }}</a>…</p>
+{{- else -}}
+<p>The link is not available yet. Come back soon!</p>
+<p><a href="/database/">← Back</a></p>
+{{- end }}
+</article>
+</main>
+</body>
+</html>
