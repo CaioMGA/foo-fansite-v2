@@ -404,6 +404,10 @@ main {
     filter: none;
 }
 
+.extra-button:disabled .extra-button-small-inner-text{
+    background-image: none;
+}
+
 .main-button:not(:disabled):hover {
     animation: panAnimation 8s ease infinite;
     animation-delay: 0s;
