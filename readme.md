@@ -44,7 +44,7 @@ Replace `YYYY` with the album year. Paths are relative to the project root.
 1. Create `static/imgs/YYYY/` with `album-cover.jpeg` (640x640), `making-of.png` and `special.png` (both 1920x1080).
 2. Create `themes/lugo/static/styles/YYYY.css` (copy the previous year's and replace the year) and add the `.cover-YYYY`, `.cover-YYYY-small`, `.mo-YYYY` and `.sp-YYYY` rules to `themes/lugo/static/styles/style.css` (copy the previous `#region`).
 3. In `themes/lugo/layouts/_default/index.html`, add the `<link>` to `YYYY.css` and the year button (newest first).
-4. In `themes/lugo/static/scripts/app.js`, update `MOST_RECENT_YEAR`, `albumId` and `albumIdList`, and add the `videos` entry (YouTube ids for _making of_ and _special_).
+4. In `themes/lugo/static/scripts/app.js`, update `MOST_RECENT_YEAR` and `albumIdList`, and add the `videos` entry (YouTube ids for _making of_ and _special_). While the album is TBA, add the year to `TBA_YEARS` in `themes/lugo/static/scripts/config.js`: it disables the _Making of_, _Special_ and _Music Player_ buttons on Home. `DEFAULT_YEAR` in the same file is the year Home and the Music Player open on, so keep it on the last released album until the new one is announced.
 5. In `themes/lugo/static/scripts/mplayer.js`, add the `"YYYY"` album. The first item is `{name, year, cover}`, followed by one `{id, title}` per song. Also bump the `year` of the `funny` and `editors-picks` playlists.
 6. Add `brchad-YYYY.png` to `themes/lugo/static/` and update the three references (`themes/lugo/layouts/_default/index.html`, `themes/lugo/layouts/_default/baseof.html` and `themes/lugo/static/music-player.html`).
 
@@ -53,10 +53,11 @@ Until the release, use `TBA` as the album name and copy the previous year's song
 ### 2. On release day
 
 1. Replace the placeholder images in `static/imgs/YYYY/`.
-2. Update the YouTube ids in `themes/lugo/static/scripts/app.js` and the name and songs in `themes/lugo/static/scripts/mplayer.js`.
-3. Add one file per song to `content/lyrics/` (`YYYY-Song_Title.md`). Copy an existing one: the front matter has `tags = ['YYYY', 'lyrics']` and `albums = 'Album Name (YYYY)'`, and the body starts with the `{{< youtube ID >}}` shortcode followed by the lyrics.
-4. Add the songs to `songs-db.csv`.
-5. Add a changelog post to `content/blog/`.
+2. In `themes/lugo/static/scripts/config.js`, remove the year from `TBA_YEARS` and set `DEFAULT_YEAR` to the new year.
+3. Update the YouTube ids in `themes/lugo/static/scripts/app.js` and the name and songs in `themes/lugo/static/scripts/mplayer.js`.
+4. Add one file per song to `content/lyrics/` (`YYYY-Song_Title.md`). Copy an existing one: the front matter has `tags = ['YYYY', 'lyrics']` and `albums = 'Album Name (YYYY)'`, and the body starts with the `{{< youtube ID >}}` shortcode followed by the lyrics.
+5. Add the songs to `songs-db.csv`.
+6. Add a changelog post to `content/blog/`.
 
 ### Navigation
 

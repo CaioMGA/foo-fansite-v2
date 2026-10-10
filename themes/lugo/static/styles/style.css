@@ -394,7 +394,17 @@ main {
 }
 
 
-.main-button:hover {
+.main-button:disabled{
+    cursor: not-allowed;
+    filter: grayscale(1) brightness(0.6);
+}
+
+.extra-button:disabled{
+    background-color: #666;
+    filter: none;
+}
+
+.main-button:not(:disabled):hover {
     animation: panAnimation 8s ease infinite;
     animation-delay: 0s;
     scale: 1.02;

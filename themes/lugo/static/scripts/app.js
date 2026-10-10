@@ -4,7 +4,7 @@ var playerControls;
 var tag = document.createElement('script');
 var playlist = [];
 var isPlaying = false;
-var albumId = "2026";
+var albumId = DEFAULT_YEAR;
 var hideTimer;
 window.addEventListener('mousemove', ResetTimer);
 document.addEventListener('keypress', ResetTimer);
@@ -97,13 +97,14 @@ function Init() {
     albumId = localStorage.getItem("album-id");
     console.log(albumIdList.indexOf(albumId) < 0);
     if (albumId == null || albumIdList.indexOf(albumId) < 0) {
-        albumId = Math.max(...Object.getOwnPropertyNames(videos)); //gets the biggest year registered on videos array
+        albumId = DEFAULT_YEAR;
     }
     SelectAlbum(albumId);
 }
 
 function SelectAlbum(year) {
     UpdateBackground(year);
+    UpdateTbaState(year);
     UpdateYearButtons(year);
     albumId = year;
     localStorage.setItem("album-id", year);
@@ -114,6 +115,13 @@ function SelectAlbum(year) {
 
     document.getElementsByClassName("fullscreen-menu")[0].classList.add("hidden");
 
+}
+
+function UpdateTbaState(year) {
+    var isTba = TBA_YEARS.indexOf(String(year)) >= 0;
+    ["button-making-of", "button-special", "music-player-button"].forEach(function (id) {
+        document.getElementById(id).disabled = isTba;
+    });
 }
 
 function UpdateBackground(year) {

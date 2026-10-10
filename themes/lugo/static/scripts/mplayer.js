@@ -345,7 +345,7 @@ function UpdateSongInfo() {
 function GetAlbumId() {
     var id = localStorage.getItem("album-id");
     if (id == null) {
-        id = new Date().getFullYear();
+        id = DEFAULT_YEAR;
         localStorage.setItem("album-id", id);
     }
 
