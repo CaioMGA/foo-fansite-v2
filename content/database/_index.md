@@ -17,3 +17,4 @@ For each song it keeps the YouTube link, title, album year, length, genres, them
 - Everyone who contributed to the database:
   - Asle Leknes (u/BassLekky)
   - Seth Caiola (u/SCBronc88)
+  - Gaba (u/wtrawi)
