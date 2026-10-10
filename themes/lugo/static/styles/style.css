@@ -400,7 +400,8 @@ main {
 }
 
 .extra-button:disabled{
-    background-color: #666;
+    background-color: #333;
+    color: #bbb;
     filter: none;
 }
 
