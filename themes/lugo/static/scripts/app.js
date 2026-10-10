@@ -121,19 +121,16 @@ function UpdateBackground(year) {
     var elem = document.getElementsByTagName("body")[0];
     var moButton = document.getElementById("button-making-of");
     var spButton = document.getElementById("button-special");
-    var musicPlayerButton = document.getElementById("music-player-button");
     for (var y = 2018; y <= MOST_RECENT_YEAR; y++) {
         if (y == 2020) continue;
         if (year == y) {
             elem.classList.add("body-" + y);
             moButton.classList.add("mo-" + y);
             spButton.classList.add("sp-" + y);
-            musicPlayerButton.classList.add("cover-" + y + "-small")
         } else {
             elem.classList.remove("body-" + y);
             moButton.classList.remove("mo-" + y);
             spButton.classList.remove("sp-" + y);
-            musicPlayerButton.classList.remove("cover-" + y + "-small")
         }
     }
 }
@@ -224,6 +221,10 @@ function ShowAboutPanel() {
 
 function GoToLyricsPage() {
     window.location.href = "./tags/lyrics"
+}
+
+function GoToRadioPage() {
+    window.location.href = "/radio"
 }
 
 function GoToBlogPage() {
