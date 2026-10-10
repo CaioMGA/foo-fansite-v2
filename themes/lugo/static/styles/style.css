@@ -527,6 +527,7 @@ button{
 }
 
 .extra-button-small-left .extra-button-small-inner-text{
+    box-sizing: border-box;
     justify-content: flex-end;
     padding-left: 0;
     padding-right: 1.2rem;
