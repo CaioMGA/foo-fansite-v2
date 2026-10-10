@@ -489,23 +489,6 @@ button{
 #button-making-of{
     border-radius: 20px 0 0 20px;
 }
-#music-player-button{
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-    /* width: 25vh;
-    height: 25vh; */
-    /* margin-left: calc(20vw - 25vh); */
-    text-decoration: none;
-    color: white;
-    background-size: 100%;
-    background-repeat: repeat;
-    background-position: 50% 50%;
-    /* max-width: 400px; */
-    /* width: 50%; */
-    /* height: 25vh; */
-    border-radius: 20px 0 0 20px;
-}
-
 #about-button{
     /* border-top-left-radius: 0;
     border-bottom-left-radius: 0;
