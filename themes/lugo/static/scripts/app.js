@@ -235,6 +235,10 @@ function GoToRadioPage() {
     window.location.href = "/radio"
 }
 
+function GoToDatabasePage() {
+    window.location.href = "/database/"
+}
+
 function GoToBlogPage() {
     window.location.href = "./tags/blog"
 }

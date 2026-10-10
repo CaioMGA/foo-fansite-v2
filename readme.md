@@ -62,5 +62,5 @@ Until the release, use `TBA` as the album name and copy the previous year's song
 ### Navigation
 
 - The header of the Hugo pages comes from `[[menus.main]]` in `hugo.toml`.
-- The Home buttons are in `themes/lugo/layouts/_default/index.html`. Each one sets its row with `grid-row-5` to `grid-row-8`. Buttons on the left use `extra-button-small-left` and the ones on the right use `tertiary-btn`.
+- The Home buttons are in `themes/lugo/layouts/_default/index.html`. Each one sets its row with `grid-row-5` to `grid-row-9`. Buttons on the left use `extra-button-small-left` and the ones on the right use `tertiary-btn`.
 - The fullscreen menu on Home and `themes/lugo/static/music-player.html` are plain HTML and have their own links.
