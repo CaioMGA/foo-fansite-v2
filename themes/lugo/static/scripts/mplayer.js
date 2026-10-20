@@ -105,7 +105,7 @@ var albums = {
         {"id":"C8rB_e2VK0w", "title": "Greg is Coming to Town"},
     ],
     "2026": [
-        {"name": "TBA", "year":"2026", "cover":"2026/album-cover.jpeg"},
+        {"name": "A Future Without You", "year":"2026", "cover":"2026/album-cover.jpeg"},
         {"id":"5foqvSuIbIc", "title": "Getting Older"},
         {"id":"WG0QVNylZvU", "title": "Who is it for?"},
         {"id":"d41zt245XE4", "title": "True"},
