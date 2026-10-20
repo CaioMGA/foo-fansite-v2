@@ -4,8 +4,11 @@
 {{ define "main" -}}
 {{ .Content }}
 
+{{- $pages := .Pages.ByDate.Reverse }}
+{{- /* album pages list the songs in track order */}}
+{{- if eq .Type "albums" }}{{ $pages = .Pages.ByDate }}{{ end }}
 <ul>
-{{- range.Pages.ByDate.Reverse }}
+{{- range $pages }}
 
 <li>
 	{{- if and .Params.tags (in .Params.tags "blog") -}}
