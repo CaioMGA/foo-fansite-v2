@@ -62,5 +62,5 @@ Until the release, use `TBA` as the album name and copy the previous year's song
 ### Navigation
 
 - The header of the Hugo pages comes from `[[menus.main]]` in `hugo.toml`.
-- The Home buttons are in `themes/lugo/layouts/_default/index.html`. Each one sets its row with `grid-row-5` to `grid-row-9`. Buttons on the left use `extra-button-small-left` and the ones on the right use `tertiary-btn`. The Radio button takes the whole first row (`extra-button-wide`). There is no Music Player button on Home anymore: the old player (`music-player.html`) is still published, linked from the Hugo header menu and from the menu of the radio.
+- The Home buttons are in `themes/lugo/layouts/_default/index.html`. Each one sets its row with `grid-row-5` to `grid-row-8` (four rows, two columns: Zine, Blog, About and Contact on the left, Radio, Lyrics, Merch and Song Database on the right). Buttons on the left use `extra-button-small-left` and the ones on the right use `tertiary-btn`. There is no Music Player button on Home anymore: the old player (`music-player.html`) is still published, linked from the Hugo header menu and from the menu of the radio.
 - The fullscreen menu on Home and `themes/lugo/static/music-player.html` are plain HTML and have their own links.
