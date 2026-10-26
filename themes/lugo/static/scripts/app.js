@@ -119,7 +119,7 @@ function SelectAlbum(year) {
 
 function UpdateTbaState(year) {
     var isTba = TBA_YEARS.indexOf(String(year)) >= 0;
-    ["button-making-of", "button-special", "music-player-button"].forEach(function (id) {
+    ["button-making-of", "button-special"].forEach(function (id) {
         document.getElementById(id).disabled = isTba;
     });
 }
@@ -155,10 +155,6 @@ function ShowSpecial() {
     playerControls.stopVideo();
     playerControls.clearVideo();
     playerControls.loadVideoById(videos[albumId].special);
-}
-
-function ShowMusicPlayer() {
-    window.location = "/music-player.html";
 }
 
 function UpdateYearButtons(year) {
