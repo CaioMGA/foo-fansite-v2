@@ -4,7 +4,7 @@ title = 'Thirtieth of September'
 tags = ['2026', 'lyrics']
 albums = 'A Future Without You (2026)'
 +++
-<!-- TODO: add the youtube shortcode when the video is out -->
+{{< youtube ajlRK4GBU24 >}}
 
 ## Thirtieth of September
 

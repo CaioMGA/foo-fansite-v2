@@ -4,7 +4,7 @@ title = "I Can't Picture A Future Without You"
 tags = ['2026', 'lyrics']
 albums = 'A Future Without You (2026)'
 +++
-<!-- TODO: add the youtube shortcode when the video is out -->
+{{< youtube Hqm3Ivo93zY >}}
 
 ## I Can't Picture A Future Without You
 

@@ -4,7 +4,7 @@ title = 'Apple Of My Eye'
 tags = ['2026', 'lyrics']
 albums = 'A Future Without You (2026)'
 +++
-<!-- TODO: add the youtube shortcode when the video is out -->
+{{< youtube ejTZguANHW4 >}}
 
 ## Apple Of My Eye
 

@@ -4,7 +4,7 @@ title = "Everyone Thinks That I'm Fine"
 tags = ['2026', 'lyrics']
 albums = 'A Future Without You (2026)'
 +++
-<!-- TODO: add the youtube shortcode when the video is out -->
+{{< youtube Ovta5nDP7KE >}}
 
 ## Everyone Thinks That I'm Fine
 
