@@ -549,6 +549,19 @@ button{
     padding-right: 1.2rem;
 }
 
+/* botão que ocupa a linha inteira (as duas colunas) */
+.extra-button-wide{
+    grid-column: 2 / span 6;
+    justify-self: center;
+    width: 100%;
+    max-width: 20rem; /* a largura do par de botões das outras linhas (2 × 10rem) */
+    border-radius: 0 0 20px 20px;
+}
+.extra-button-wide .extra-button-small-inner-text{
+    justify-content: center;
+    padding-left: 0;
+}
+
 .extra-button-bottom{
     border-top-left-radius: 0;
     border-top-right-radius: 0;

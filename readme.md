@@ -44,7 +44,7 @@ Replace `YYYY` with the album year. Paths are relative to the project root.
 1. Create `static/imgs/YYYY/` with `album-cover.jpeg` (640x640), `making-of.png` and `special.png` (both 1920x1080).
 2. Create `themes/lugo/static/styles/YYYY.css` (copy the previous year's and replace the year) and add the `.cover-YYYY`, `.cover-YYYY-small`, `.mo-YYYY` and `.sp-YYYY` rules to `themes/lugo/static/styles/style.css` (copy the previous `#region`).
 3. In `themes/lugo/layouts/_default/index.html`, add the `<link>` to `YYYY.css` and the year button (newest first).
-4. In `themes/lugo/static/scripts/app.js`, update `MOST_RECENT_YEAR` and `albumIdList`, and add the `videos` entry (YouTube ids for _making of_ and _special_). While the album is TBA, add the year to `TBA_YEARS` in `themes/lugo/static/scripts/config.js`: it disables the _Making of_, _Special_ and _Music Player_ buttons on Home. `DEFAULT_YEAR` in the same file is the year Home and the Music Player open on, so keep it on the last released album until the new one is announced.
+4. In `themes/lugo/static/scripts/app.js`, update `MOST_RECENT_YEAR` and `albumIdList`, and add the `videos` entry (YouTube ids for _making of_ and _special_). While the album is TBA, add the year to `TBA_YEARS` in `themes/lugo/static/scripts/config.js`: it disables the _Making of_ and _Special_ buttons on Home. `DEFAULT_YEAR` in the same file is the year Home and the Music Player open on, so keep it on the last released album until the new one is announced.
 5. In `themes/lugo/static/scripts/mplayer.js`, add the `"YYYY"` album. The first item is `{name, year, cover}`, followed by one `{id, title}` per song. Also bump the `year` of the `funny` and `editors-picks` playlists.
 6. Add `brchad-YYYY.png` to `themes/lugo/static/` and update the three references (`themes/lugo/layouts/_default/index.html`, `themes/lugo/layouts/_default/baseof.html` and `themes/lugo/static/music-player.html`).
 
@@ -62,5 +62,5 @@ Until the release, use `TBA` as the album name and copy the previous year's song
 ### Navigation
 
 - The header of the Hugo pages comes from `[[menus.main]]` in `hugo.toml`.
-- The Home buttons are in `themes/lugo/layouts/_default/index.html`. Each one sets its row with `grid-row-5` to `grid-row-9`. Buttons on the left use `extra-button-small-left` and the ones on the right use `tertiary-btn`.
+- The Home buttons are in `themes/lugo/layouts/_default/index.html`. Each one sets its row with `grid-row-5` to `grid-row-9`. Buttons on the left use `extra-button-small-left` and the ones on the right use `tertiary-btn`. The Radio button takes the whole first row (`extra-button-wide`). There is no Music Player button on Home anymore: the old player (`music-player.html`) is still published, linked from the Hugo header menu and from the menu of the radio.
 - The fullscreen menu on Home and `themes/lugo/static/music-player.html` are plain HTML and have their own links.
