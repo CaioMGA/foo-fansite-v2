@@ -8,4 +8,52 @@ albums = 'A Future Without You (2026)'
 
 ## Rest Of My Life
 
-### Soon
+I've been waiting for something to take me
+
+You know that I'm here to provide
+
+Weeks and months racing, went stacking and it's escaping
+
+I'm here for a day of my life
+
+&nbsp;
+
+I've been waiting for something to take me
+
+You know that I'm here to provide
+
+Weeks and months racing, went stacking and it's escaping
+
+I'm here for the rest of my life
+
+&nbsp;
+
+I've been waiting for something to take me
+
+You know that I'm here to provide
+
+Weeks and months racing, went stacking and it's escaping
+
+I'm here for a day of my life
+
+&nbsp;
+
+I've been waiting for something to take me
+
+You know that I'm here to provide
+
+Weeks and months racing, went stacking and it's escaping
+
+I'm here for the rest of my life
+
+&nbsp;
+
+I've been waiting for something to take me
+
+You know that I'm here to provide
+
+Weeks and months racing, went stacking and it's escaping
+
+I'm here for a day of my life
+
+        (... the rest of my life)

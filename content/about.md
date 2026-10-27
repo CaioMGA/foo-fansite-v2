@@ -13,7 +13,7 @@ Fansite created as a hommage to **First of October**. Designed, coded and mainta
 
 This site does not use any JavaScript framework. The audios and videos shown in the site are streamed from Youtube due to its convenience (it's free, available worldwide, and fast). The site is self-hosted.
 
-I updated the site in 2025 to have all the lyrics for the songs. To achieve this I chose to use HUGO, a static site generator. Lyrics were collected on [Genius](https://genius.com/artists/First-of-october).
+I updated the site in 2025 to have all the lyrics for the songs. To achieve this I chose to use HUGO, a static site generator. Lyrics for the 2018-2024 albums were collected on [Genius](https://genius.com/artists/First-of-october); the lyrics from 2025 onwards were collected by me.
 
 I decided to create this site because this is the only band I look forward to their next album every year. 
 
@@ -24,7 +24,7 @@ I decided to create this site because this is the only band I look forward to th
 - JavaScript
 - Youtube (videos and audios)
 - HUGO
-- Genius (lyrics)
+- Genius (lyrics, 2018-2024)
 - Locaweb (VPS Hosting)
 - GoDaddy (Registrar)
 - Google Fonts (ttf fonts)

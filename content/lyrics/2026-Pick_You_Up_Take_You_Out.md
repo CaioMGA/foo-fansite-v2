@@ -8,4 +8,60 @@ albums = 'A Future Without You (2026)'
 
 ## Pick You Up, Take You Out
 
-### Soon
+Pick you up
+
+Take you out
+
+&nbsp;
+
+Pick you up
+
+Take you out
+
+&nbsp;
+
+Pick you up
+
+Take you out
+
+&nbsp;
+
+Pick you up
+
+Take you out
+
+&nbsp;
+
+Pick you up
+
+Take you out
+
+&nbsp;
+
+Pick you up
+
+Take you out
+
+&nbsp;
+
+Pick you up
+
+Take you out
+
+&nbsp;
+
+Pick you up
+
+Take you out
+
+&nbsp;
+
+Pick you up
+
+Take you out
+
+&nbsp;
+
+Pick you up
+
+Take you out

@@ -8,4 +8,4 @@ albums = 'A Future Without You (2026)'
 
 ## Thirtieth of September
 
-### Soon
+_This song has no lyrics_

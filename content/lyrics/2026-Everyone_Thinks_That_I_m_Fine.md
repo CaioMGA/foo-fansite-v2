@@ -8,4 +8,28 @@ albums = 'A Future Without You (2026)'
 
 ## Everyone Thinks That I'm Fine
 
-### Soon
+Everyone thinks that I'm fine
+
+Everyone thinks that I'm fine
+
+And I'm fine with that
+
+Everyone thinks that I'm fine
+
+And I'm fine with that
+
+And I'm fine with that
+
+&nbsp;
+
+Everyone thinks that I'm good
+
+Everyone thinks that I'm good
+
+And I'm good with that
+
+Everyone thinks that I'm fine
+
+And I'm fine with that
+
+And I'm fine with that
